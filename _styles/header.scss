@@ -45,7 +45,9 @@ header a {
 
 .logo > * {
   height: 100%;
-  width: 100%;
+  width: auto;            // Preserve intrinsic aspect ratio
+  max-width: 100%;        // Prevent overflow in flex containers
+  object-fit: contain;    // Ensure no distortion across browsers (incl. Safari)
 }
 
 .title-text {
