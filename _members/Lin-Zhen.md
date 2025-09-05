@@ -1,5 +1,5 @@
 ---
-name:Linzhen Zhu
+name: Linzhen Zhu
 image: Linzhen Zhu # upload your pic to images folder.
 role: Ph.D Student # change to your role (PhD/Master/Visiting/Undergraduate Student) 
 affiliation: University of Michigan
