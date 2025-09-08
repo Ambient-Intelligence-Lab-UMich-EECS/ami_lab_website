@@ -2,10 +2,10 @@
 title: Home
 carousels:
   - images: 
-    - image: /images/background.jpg
+    - image: /ami_lab_website/images/background.jpg
       title: 111
-    - image: /images/logo.jpg
-    - image: /images/photo.jpg
+    - image: /ami_lab_website/images/logo.jpg
+    - image: /ami_lab_website/images/photo.jpg
 ---
 
 ## AmI (Ambient Intelligence) Lab Vision
