@@ -3,7 +3,7 @@ title: Home
 carousels:
   - images: 
     - image: /images/background.jpg
-      # title: "First Slide Title"
+      title: 111
     - image: /images/logo.jpg
     - image: /images/photo.jpg
 ---

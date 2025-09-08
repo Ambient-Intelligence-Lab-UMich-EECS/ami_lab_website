@@ -27,11 +27,7 @@
         <div class="carousel__track">
           <ul>
             {% for item in page.carousels[number].images %}
-            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"> 
-                {% if item.title %}
-                <div class="carousel__figure-title">{{ item.title }}</div>
-                {% endif %}
-            </li>
+            <li class="carousel__slide" style="background-image: url('{{ item.image }}');"></li>
             {% endfor %}
           </ul>
         </div>
@@ -56,19 +52,6 @@
 .carousel__controls,
 .carousel__activator {
   display: none;
-}
-.carousel__figure-title {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0.5rem 1rem;
-  font-size: 1rem;
-  background: rgba(0, 0, 0, 0.5); /* Optional: dark background for contrast */
-  color: white;
-  text-align: center;
-  box-sizing: border-box;
-  z-index: 2;
 }
 {% for item in page.carousels[number].images %}
 .carousel__activator:nth-of-type({{ forloop.index }}):checked ~ .carousel__track {
