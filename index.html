@@ -467,9 +467,7 @@
     <h2 id="ami-ambient-intelligence-lab-vision">AmI (Ambient Intelligence) Lab Vision</h2>
 <p>Led by Prof. <strong><a href="https://samsonsjarkal.github.io/KeSun/">Ke Sun</a></strong>, the AmI Lab was established in CSE of the EECS Department at the University of Michigan, Ann Arbor in January 2025.</p>
 
-<p>We envision a future where our environments intuitively adapt in real-time to augment human abilities through <strong>Ambient Intelligence (AmI)</strong>. In this future, devices, sensors, and processors are seamlessly embedded into everyday objects and spaces, creating intelligent systems that proactively adjust to individual needs.</p>
-
-<p>Guided by this vision, the AmI Lab at UMich CSE focuses on developing <strong>intelligent, cost-effective, deployable, human-centric, and trustworthy Mobile, Wearable, and IoT (MWIoT) systems</strong>. Our research goals include:</p>
+<p>We envision a future where our environments intuitively adapt in real-time to augment human abilities through <strong>Ambient Intelligence (AmI)</strong>. In this future, devices, sensors, and processors are seamlessly embedded into everyday objects and spaces, creating intelligent systems that proactively adjust to individual needs. Guided by this vision, the AmI Lab at UMich CSE focuses on developing <strong>intelligent, cost-effective, deployable, human-centric, and trustworthy Mobile, Wearable, and IoT (MWIoT) systems</strong>. Our research goals include:</p>
 
 <ul>
   <li>
@@ -510,9 +508,15 @@
           <ul>
             
             <li class="carousel__slide" style="background-image: url('/ami_lab_website/images/ultraposer.gif');">
+              
+                <div class="carousel__figure-title">UltraPoser (UIST'25)</div>
+              
             
             </li>
 <li class="carousel__slide" style="background-image: url('/ami_lab_website/images/eveguard.png');">
+              
+                <div class="carousel__figure-title">EveGuard (S&amp;P'25)</div>
+              
             
           </li>
 </ul>
@@ -540,6 +544,19 @@
 .carousel__controls,
 .carousel__activator {
   display: none;
+}
+.carousel__figure-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: rgba(0, 0, 0, 0.5); /* Optional: dark background for contrast */
+  color: white;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 2;
 }
 
 .carousel__activator:nth-of-type(1):checked ~ .carousel__track {
@@ -676,7 +693,6 @@
   height: 100%;
   position: absolute;
   opacity: 0;
-  overflow: hidden;
 }
 .carousel__slide .overlay {height: 100%;}
 .carousel--thumb .carousel__indicator {
@@ -689,14 +705,16 @@
 
 .carousel__slide:nth-of-type(1),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(1) {
-  background-size: cover;
+  background-size: contain; 
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-of-type(2),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(2) {
-  background-size: cover;
+  background-size: contain; 
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 </style>
