@@ -1,7 +1,7 @@
 ---
 name: Ruyao Wang
 image: images/Ruyao.jpg # upload your pic to images folder.
-role: Master Student # change to your role (PhD/Master/Visiting/Undergraduate Student) 
+role: master # change to your role (PhD/Master/Visiting/Undergraduate Student) 
 affiliation: University of Michigan
 links:
 

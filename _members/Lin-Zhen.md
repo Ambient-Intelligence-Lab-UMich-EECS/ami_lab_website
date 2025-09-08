@@ -1,7 +1,7 @@
 ---
 name: Linzhen Zhu
 image: images/Linzhen.jpg # upload your pic to images folder.
-role: Ph.D Student # change to your role (PhD/Master/Visiting/Undergraduate Student) 
+role: phd # change to your role (PhD/Master/Visiting/Undergraduate Student) 
 affiliation: University of Michigan
 links:
   email: lzzhu@umich.edu
