@@ -3,17 +3,15 @@ title: Home
 carousels:
   - images: 
     - image: /ami_lab_website/images/ultraposer.gif
-      title: UltraPoser (UIST'25)
+      title: "UltraPoser (UIST'25)"
     - image: /ami_lab_website/images/eveguard.png
-      title: EveGuard (S&P'25)
+      title: "EveGuard (S&P'25)"
 ---
 
 ## AmI (Ambient Intelligence) Lab Vision
 Led by Prof. **[Ke Sun](https://samsonsjarkal.github.io/KeSun/)**, the AmI Lab was established in CSE of the EECS Department at the University of Michigan, Ann Arbor in January 2025.
 
-We envision a future where our environments intuitively adapt in real-time to augment human abilities through **Ambient Intelligence (AmI)**. In this future, devices, sensors, and processors are seamlessly embedded into everyday objects and spaces, creating intelligent systems that proactively adjust to individual needs. 
-
-Guided by this vision, the AmI Lab at UMich CSE focuses on developing **intelligent, cost-effective, deployable, human-centric, and trustworthy Mobile, Wearable, and IoT (MWIoT) systems**. Our research goals include:
+We envision a future where our environments intuitively adapt in real-time to augment human abilities through **Ambient Intelligence (AmI)**. In this future, devices, sensors, and processors are seamlessly embedded into everyday objects and spaces, creating intelligent systems that proactively adjust to individual needs. Guided by this vision, the AmI Lab at UMich CSE focuses on developing **intelligent, cost-effective, deployable, human-centric, and trustworthy Mobile, Wearable, and IoT (MWIoT) systems**. Our research goals include:
 
 - **Enable novel applications** through advanced sensing technologies; 
 - **Advance computational sensing techniques** to enhance the capabilities and performance of MWIoT systems; 
