@@ -4,8 +4,8 @@ carousels:
   - images: 
     - image: /ami_lab_website/images/ultraposer.gif
       title: UltraPoser (UIST'25)
-    - image: /ami_lab_website/images/logo.jpg
-    - image: /ami_lab_website/images/photo.jpg
+    - image: /ami_lab_website/images/eveguard.png
+      title: EveGuard (S&P'25)
 ---
 
 ## AmI (Ambient Intelligence) Lab Vision
