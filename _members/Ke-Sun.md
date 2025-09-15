@@ -4,6 +4,7 @@ image: images/KeSun_UMich.jpg
 role: principal-investigator
 affiliation: University of Michigan
 links:
+  email: kesuniot@umich.edu
   home-page: https://samsonsjarkal.github.io/KeSun/
 ---
 
