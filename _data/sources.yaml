@@ -3,6 +3,7 @@
 - id: doi:10.1145/3746059.3747714
   title: 'UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with
     Ultrasound Sensing on Consumer Wearables'
+  type: paper
   authors:
   - Yadong Li
   - Shuning Wang
@@ -23,6 +24,18 @@
   file: orcid.yaml
   publishershort: ACM UIST '25
   image: images/25UIST_ultraposer.gif
+  buttons:
+    - type: source
+      text: Source Code
+      link: https://github.com/leeyadong/UltraPoser
+    - type: website
+      text: Video
+      link: https://www.youtube.com/watch?v=P93l3j6mSCw
+  tags:
+    - human computer interaction
+    - multimodal
+    - ultrasound
+    - motion sensor
 - id: doi:10.1109/sp61157.2025.00235
   title: 'EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio
     Adversarial Perturbations'
@@ -41,6 +54,13 @@
   file: sources.yaml
   publishershort: IEEE S&P (Oakland) '25
   image: images/25SP_eveguard.png
+  tags:
+    - security privacy
+    - speech
+  buttons:
+    - type: website
+      text: Demo
+      link: https://eveguard.github.io/demo/
 - id: doi:10.1145/3715014.3724047
   title: 'Poster Abstract: On-Shelf Weight Difference Estimation Through Active Vibration
     Sensing'
@@ -62,6 +82,9 @@
   file: sources.yaml
   publishershort: ACM SenSys '25
   image: images/25SenSys_weight.png
+  tags:
+    - industrial IoT
+    - vibration
 - id: doi:10.1609/aaai.v39i22.34537
   title: Security Attacks on LLM-based Code Completion Tools
   authors:
@@ -78,6 +101,9 @@
   file: sources.yaml
   publishershort: AAAI '25
   image: images/25AAAI_lcct.png
+  tags:
+    - security privacy
+    - text
 - id: doi:10.14722/ndss.2025.230336
   title: 'Magmaw: Modality-Agnostic Adversarial Attacks on Machine Learning-Based
     Wireless Communication Systems'
@@ -97,6 +123,10 @@
   file: orcid.yaml
   publishershort: NDSS '25
   image: images/25NDSS_magmaw.png
+  tags:
+    - security privacy
+    - wireless communication
+    - radio frequency
 - id: doi:10.1145/3666025.3699351
   title: 'RFCanvas: Modeling RF Channel by Fusing Visual Priors and Few-shot RF Measurements'
   authors:
@@ -114,6 +144,10 @@
   file: sources.yaml
   publishershort: ACM SenSys '24
   image: images/24SenSys_rfcanvas.png
+  tags:
+    - wireless communication
+    - radio frequency
+    - vision
 - id: doi:10.1145/3677122
   title: Towards Smartphone-based 3D Hand Pose Reconstruction Using Acoustic Signals
   authors:
@@ -134,6 +168,10 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM TOSN
+  image: images/24TOSN_handtrack.png
+  tags:
+    - human computer interaction
+    - ultrasound
 - id: doi:10.1145/3643553
   title: Multimodal Daily-Life Logging in Free-living Environment Using Non-Visual
     Egocentric Sensors on a Smartphone
@@ -153,6 +191,13 @@
   file: sources.yaml
   publishershort: ACM IMWUT (UbiComp'24)
   image: images/24IMWUT_egoadl.png
+  tags:
+    - human computer interaction
+    - multimodal
+    - radio frequency
+    - motion sensor
+    - speech
+    - text
 - id: doi:10.14722/ndss.2023.24077
   title: 'StealthyIMU: Stealing Permission-protected Private Information From Smartphone
     Voice Assistant Using Zero-Permission Sensors'
@@ -170,6 +215,11 @@
   file: sources.yaml
   publishershort: NDSS
   image: images/23NDSS_stealthyimu.jpg
+  tags:
+    - security privacy
+    - motion sensor
+    - speech
+    - text
 - id: doi:10.1109/TMC.2023.3241304
   title: 'SCALAR: Self-Calibrated Acoustic Ranging for Distributed Mobile Devices'
   authors:
@@ -191,6 +241,10 @@
   file: sources.yaml
   publishershort: IEEE TMC
   image: images/23TMC_scalar.jpg
+  tags:
+    - home IoT
+    - industrial IoT
+    - ultrasound
 - id: doi:10.1145/3550293
   title: 'LoEar: Push the Range Limit of Acoustic Sensing for Vital Sign Monitoring'
   authors:
@@ -211,6 +265,10 @@
   file: sources.yaml
   publishershort: ACM IMWUT (UbiComp'22)
   image: images/22IMWUT_loear.jpeg
+  tags:
+    - home IoT
+    - mobile health
+    - ultrasound
 - id: doi:10.1145/3550336
   title: 'VECTOR: Velocity Based Temperature-field Monitoring with Distributed Acoustic
     Devices'
@@ -234,6 +292,10 @@
   file: sources.yaml
   publishershort: ACM IMWUT (UbiComp'22)
   image: images/22IMWUT_VECTOR.jpg
+  tags:
+    - home IoT
+    - industrial IoT
+    - ultrasound
 - id: doi:10.1145/3447993.3448626
   title: 'UltraSE: single-channel speech enhancement using ultrasound'
   authors:
@@ -249,6 +311,11 @@
   file: sources.yaml
   publishershort: ACM MobiCom'21
   image: images/21MobiCom_ultrase.jpg
+  tags:
+    - human computer interaction
+    - multimodal
+    - speech
+    - ultrasound
 - id: doi:10.1145/3412382.3458268
   title: 'ExGSense: Toward Facial Gesture Sensing with a Sparse Near-Eye Sensor Array'
   authors:
@@ -265,6 +332,9 @@
   file: sources.yaml
   publishershort: ACM/IEEE IPSN'21
   image: images/21IPSN_exgsense.gif
+  tags:
+    - human computer interaction
+    - biosignals
 - id: doi:10.1109/TMC.2019.2961885
   title: 'WiTrace: Centimeter-Level Passive Gesture Tracking Using OFDM Signals'
   authors:
@@ -285,6 +355,9 @@
   file: sources.yaml
   publishershort: IEEE TMC
   image: images/21TMC_witrace.png
+  tags:
+    - human computer interaction
+    - radio frequency
 - id: doi:10.1145/3384419.3430727
   title: '"Alexa, stop spying on me!" speech privacy protection against voice assistants'
   authors:
@@ -300,6 +373,10 @@
   file: sources.yaml
   publishershort: ACM SenSys'20
   image: images/20SenSys_micshield.jpg
+  tags:
+    - security privacy
+    - speech
+    - ultrasound
 - id: doi:10.1145/3384419.3430776
   title: 'milliEgo: single-chip mmWave radar aided egomotion estimation via deep sensor
     fusion'
@@ -322,6 +399,11 @@
   file: sources.yaml
   publishershort: ACM SenSys'20
   image: images/20SenSys_milliego.jpg
+  tags:
+    - mobile robotics
+    - multimodal
+    - radio frequency
+    - motion sensor
 - id: doi:10.1109/infocom41043.2020.9155491
   title: 'Dynamic Speed Warping: Similarity-Based One-shot Learning for Device-free
     Gesture Signals'
@@ -340,6 +422,9 @@
   file: sources.yaml
   publishershort: IEEE INFOCOM'20
   image: images/20INFOCOM_dsw.jpg
+  tags:
+    - human computer interaction
+    - ultrasound
 - id: doi:10.1109/infocom41043.2020.9155447
   title: 'SpiderMon: Towards Using Cell Towers as Illuminating Sources for Keystroke
     Monitoring'
@@ -359,6 +444,9 @@
   file: sources.yaml
   publishershort: IEEE INFOCOM'20
   image: images/20INFOCOM_SpiderMon.gif
+  tags:
+    - security privacy
+    - radio frequency
 - id: doi:10.1109/tmc.2020.2997602
   title: Charging Task Scheduling for Directional Wireless Charger Networks
   authors:
@@ -377,6 +465,10 @@
   file: sources.yaml
   publishershort: IEEE TMC
   image: images/20TMC_haste.png
+  tags:
+    - home iot
+    - industrial iot
+    - radio frequency
 - id: doi:10.1145/3241539.3241568
   title: 'VSkin: Sensing Touch Gestures on Surfaces of Mobile Devices Using Acoustic
     Signals'
@@ -395,6 +487,10 @@
   file: sources.yaml
   publishershort: ACM MobiCom'18
   image: images/18MobiCom_vskin.gif
+  tags:
+    - human computer interaction
+    - vibration
+    - ultrasound
 - id: doi:10.1145/3264950
   title: 'Unlock with Your Heart: Heartbeat-based Authentication on Commercial Mobile
     Phones'
@@ -416,6 +512,10 @@
   file: sources.yaml
   publishershort: ACM IMWUT (UbiComp'18)
   image: images/18IMWUT_Heartbeat.gif
+  tags:
+    - security privacy
+    - biosignals
+    - motion sensor
 - id: doi:10.1145/3225058.3225080
   title: Charging Task Scheduling for Directional Wireless Charger Networks
   authors:
@@ -434,6 +534,10 @@
   file: sources.yaml
   publishershort: ACM ICPP'18
   image: images/20TMC_haste.png
+  tags:
+    - home iot
+    - industrial iot
+    - radio frequency
 - id: doi:10.1145/3210240.3210315
   title: Depth Aware Finger Tapping on Virtual Displays
   authors:
@@ -451,6 +555,11 @@
   file: sources.yaml
   publishershort: ACM MobiSys'18
   image: images/18MobiSys_ARtype.jpg
+  tags:
+    - human computer interaction
+    - multimodal
+    - ultrasound
+    - vision
 - id: doi:10.1109/sahcn.2018.8397120
   title: 'WiTrace: Centimeter-Level Passive Gesture Tracking Using WiFi Signals'
   authors:
@@ -469,6 +578,9 @@
   file: sources.yaml
   publishershort: IEEE SECON'18
   image: images/21TMC_witrace.png
+  tags:
+    - human computer interaction
+    - radio frequency
 - id: doi:10.1145/2973750.2973764
   title: Device-free gesture tracking using acoustic signals
   authors:
@@ -485,6 +597,9 @@
   file: sources.yaml
   publishershort: ACM MobiCom'16
   image: images/16MobiCom_llapfly.gif
+  tags:
+    - human computer interaction
+    - ultrasound
 - id: doi:10.1145/2973750.2987385
   title: Device-free gesture tracking using acoustic signals
   authors:
@@ -501,3 +616,6 @@
   file: sources.yaml
   publishershort: ACM MobiCom'16
   image: images/16MobiCom_llapfly.gif
+  tags:
+    - human computer interaction
+    - ultrasound

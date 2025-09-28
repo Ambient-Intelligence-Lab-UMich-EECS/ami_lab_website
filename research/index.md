@@ -40,7 +40,9 @@ AmI lab aims to co-design end-to-end mobile, wearable, and IoT systems to achiev
 
 ## Highlighted
 
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{% include citation.html lookup="UltraPoser" style="rich" %}
+
+{% include citation.html lookup="EveGuard" style="rich" %}
 
 {% include section.html %}
 
