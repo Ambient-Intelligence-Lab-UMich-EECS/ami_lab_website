@@ -1,20 +1,28 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.1609/aaai.v39i22.34537
-  title: Security Attacks on LLM-based Code Completion Tools
+- id: doi:10.1145/3746059.3747714
+  title: 'UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with
+    Ultrasound Sensing on Consumer Wearables'
   authors:
-  - Wen Cheng
-  - Ke Sun
+  - Yadong Li
+  - Shuning Wang
+  - Yongjian Fu
+  - Justin Chen
+  - Xingyu Chen
+  - Ju Ren
   - Xinyu Zhang
-  - Wei Wang
-  publisher: Proceedings of the AAAI Conference on Artificial Intelligence
-  publishershort: AAAI
-  date: '2025-04-11'
-  link: https://doi.org/g9s92b
+  - Akshay Gadre
+  - Ke Sun
+  publisher: Proceedings of the 38th Annual ACM Symposium on User Interface Software
+    and Technology
+  date: '2025-09-27'
+  link: https://doi.org/g9474k
   orcid: 0000-0001-9563-1398
   ke-sun: true
   plugin: orcid.py
   file: orcid.yaml
+  publishershort: ACM UIST '25
+  image: images/25UIST_ultraposer.gif
 - id: doi:10.1109/sp61157.2025.00235
   title: 'EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio
     Adversarial Perturbations'
@@ -25,13 +33,14 @@
   - Xinyu Zhang
   - Farinaz Koushanfar
   publisher: 2025 IEEE Symposium on Security and Privacy (SP)
-  publishershort: IEEE S&P (Oakland) '25
   date: '2025-05-12'
   link: https://doi.org/g9s9z9
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: IEEE S&P (Oakland) '25
+  image: images/25SP_eveguard.png
 - id: doi:10.1145/3715014.3724047
   title: 'Poster Abstract: On-Shelf Weight Difference Estimation Through Active Vibration
     Sensing'
@@ -45,13 +54,49 @@
   - Ke Sun
   - Pei Zhang
   publisher: Proceedings of the 23rd ACM Conference on Embedded Networked Sensor Systems
-  publishershort: ACM SenSys '25
   date: '2025-05-06'
   link: https://doi.org/g9s2pm
   orcid: 0000-0001-9563-1398
   ke-sun: true
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM SenSys '25
+  image: images/25SenSys_weight.png
+- id: doi:10.1609/aaai.v39i22.34537
+  title: Security Attacks on LLM-based Code Completion Tools
+  authors:
+  - Wen Cheng
+  - Ke Sun
+  - Xinyu Zhang
+  - Wei Wang
+  publisher: Proceedings of the AAAI Conference on Artificial Intelligence
+  date: '2025-04-11'
+  link: https://doi.org/g9s92b
+  orcid: 0000-0001-9563-1398
+  ke-sun: true
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: AAAI '25
+  image: images/25AAAI_lcct.png
+- id: doi:10.14722/ndss.2025.230336
+  title: 'Magmaw: Modality-Agnostic Adversarial Attacks on Machine Learning-Based
+    Wireless Communication Systems'
+  authors:
+  - Jung-Woo Chang
+  - Ke Sun
+  - Nasimeh Heydaribeni
+  - Seira Hidano
+  - Xinyu Zhang
+  - Farinaz Koushanfar
+  publisher: Proceedings 2025 Network and Distributed System Security Symposium
+  date: '2025-01-01'
+  link: https://doi.org/g9xjt4
+  orcid: 0000-0001-9563-1398
+  ke-sun: true
   plugin: orcid.py
   file: orcid.yaml
+  publishershort: NDSS '25
+  image: images/25NDSS_magmaw.png
 - id: doi:10.1145/3666025.3699351
   title: 'RFCanvas: Modeling RF Channel by Fusing Visual Priors and Few-shot RF Measurements'
   authors:
@@ -61,13 +106,14 @@
   - Kun Qian
   - Xinyu Zhang
   publisher: Proceedings of the 22nd ACM Conference on Embedded Networked Sensor Systems
-  publishershort: ACM SenSys '24
   date: '2024-11-04'
   link: https://doi.org/g9s2pn
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM SenSys '24
+  image: images/24SenSys_rfcanvas.png
 - id: doi:10.1145/3677122
   title: Towards Smartphone-based 3D Hand Pose Reconstruction Using Acoustic Signals
   authors:
@@ -81,13 +127,13 @@
   - Hongfei Xue
   - Lu Su
   publisher: ACM Transactions on Sensor Networks
-  publishershort: ACM TOSN
   date: '2024-08-26'
   link: https://doi.org/g9s2pp
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM TOSN
 - id: doi:10.1145/3643553
   title: Multimodal Daily-Life Logging in Free-living Environment Using Non-Visual
     Egocentric Sensors on a Smartphone
@@ -99,13 +145,14 @@
   - Charlie Jianzhong Zhang
   publisher: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
     Technologies
-  publishershort: ACM IMWUT (UbiComp'24)
   date: '2024-03-06'
   link: https://doi.org/g9s2pq
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM IMWUT (UbiComp'24)
+  image: images/24IMWUT_egoadl.png
 - id: doi:10.14722/ndss.2023.24077
   title: 'StealthyIMU: Stealing Permission-protected Private Information From Smartphone
     Voice Assistant Using Zero-Permission Sensors'
@@ -115,13 +162,14 @@
   - Songlin Xu
   - Xinyu Zhang
   publisher: Proceedings 2023 Network and Distributed System Security Symposium
-  publishershort: NDSS
   date: '2023-01-01'
   link: https://doi.org/g9s2pr
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: NDSS
+  image: images/23NDSS_stealthyimu.jpg
 - id: doi:10.1109/TMC.2023.3241304
   title: 'SCALAR: Self-Calibrated Acoustic Ranging for Distributed Mobile Devices'
   authors:
@@ -135,13 +183,14 @@
   - Haodong Liu
   - Wei Wang
   publisher: IEEE Transactions on Mobile Computing
-  publishershort: IEEE TMC
   date: '2023-01-01'
   link: https://doi.org/g8xcd3
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: IEEE TMC
+  image: images/23TMC_scalar.jpg
 - id: doi:10.1145/3550293
   title: 'LoEar: Push the Range Limit of Acoustic Sensing for Vital Sign Monitoring'
   authors:
@@ -154,15 +203,17 @@
   - Daqing Zhang
   publisher: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
     Technologies
-  publishershort: ACM IMWUT (UbiComp'22)
   date: '2022-09-06'
   link: https://doi.org/g9s2ps
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM IMWUT (UbiComp'22)
+  image: images/22IMWUT_loear.jpeg
 - id: doi:10.1145/3550336
-  title: 'VECTOR: Velocity Based Temperature-field Monitoring with Distributed Acoustic Devices'
+  title: 'VECTOR: Velocity Based Temperature-field Monitoring with Distributed Acoustic
+    Devices'
   authors:
   - Haoran Wan
   - Lei Wang
@@ -175,13 +226,14 @@
   - Wei Wang
   publisher: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
     Technologies
-  publishershort: ACM IMWUT (UbiComp'22)
   date: '2022-09-06'
   link: https://doi.org/g9s2pt
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM IMWUT (UbiComp'22)
+  image: images/22IMWUT_VECTOR.jpg
 - id: doi:10.1145/3447993.3448626
   title: 'UltraSE: single-channel speech enhancement using ultrasound'
   authors:
@@ -189,13 +241,14 @@
   - Xinyu Zhang
   publisher: Proceedings of the 27th Annual International Conference on Mobile Computing
     and Networking
-  publishershort: ACM MobiCom'21
   date: '2021-09-09'
   link: https://doi.org/gmz559
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM MobiCom'21
+  image: images/21MobiCom_ultrase.jpg
 - id: doi:10.1145/3412382.3458268
   title: 'ExGSense: Toward Facial Gesture Sensing with a Sparse Near-Eye Sensor Array'
   authors:
@@ -204,13 +257,14 @@
   - Xinyu Zhang
   publisher: Proceedings of the 20th International Conference on Information Processing
     in Sensor Networks (co-located with CPS-IoT Week 2021)
-  publishershort: ACM/IEEE IPSN'21
   date: '2021-05-18'
   link: https://doi.org/g9s2pv
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM/IEEE IPSN'21
+  image: images/21IPSN_exgsense.gif
 - id: doi:10.1109/TMC.2019.2961885
   title: 'WiTrace: Centimeter-Level Passive Gesture Tracking Using OFDM Signals'
   authors:
@@ -223,13 +277,14 @@
   - Xiaoyu Wang
   - Qing Gu
   publisher: IEEE Transactions on Mobile Computing
-  publishershort: IEEE TMC
   date: '2021-04-01'
   link: https://doi.org/gghgf9
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: IEEE TMC
+  image: images/21TMC_witrace.png
 - id: doi:10.1145/3384419.3430727
   title: '"Alexa, stop spying on me!" speech privacy protection against voice assistants'
   authors:
@@ -237,15 +292,17 @@
   - Chen Chen
   - Xinyu Zhang
   publisher: Proceedings of the 18th Conference on Embedded Networked Sensor Systems
-  publishershort: ACM SenSys'20
   date: '2020-11-16'
   link: https://doi.org/ghqdzz
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM SenSys'20
+  image: images/20SenSys_micshield.jpg
 - id: doi:10.1145/3384419.3430776
-  title: 'milliEgo: single-chip mmWave radar aided egomotion estimation via deep sensor fusion'
+  title: 'milliEgo: single-chip mmWave radar aided egomotion estimation via deep sensor
+    fusion'
   authors:
   - Chris Xiaoxuan Lu
   - Muhamad Risqi U. Saputra
@@ -257,13 +314,14 @@
   - Niki Trigoni
   - Andrew Markham
   publisher: Proceedings of the 18th Conference on Embedded Networked Sensor Systems
-  publishershort: ACM SenSys'20
   date: '2020-11-16'
   link: https://doi.org/gs6mn8
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM SenSys'20
+  image: images/20SenSys_milliego.jpg
 - id: doi:10.1109/infocom41043.2020.9155491
   title: 'Dynamic Speed Warping: Similarity-Based One-shot Learning for Device-free
     Gesture Signals'
@@ -274,13 +332,14 @@
   - Wei Wang
   - Qing Gu
   publisher: IEEE INFOCOM 2020 - IEEE Conference on Computer Communications
-  publishershort: IEEE INFOCOM'20
   date: '2020-07-01'
   link: https://doi.org/ghkk73
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: IEEE INFOCOM'20
+  image: images/20INFOCOM_dsw.jpg
 - id: doi:10.1109/infocom41043.2020.9155447
   title: 'SpiderMon: Towards Using Cell Towers as Illuminating Sources for Keystroke
     Monitoring'
@@ -292,13 +351,14 @@
   - Lei Xie
   - Qing Gu
   publisher: IEEE INFOCOM 2020 - IEEE Conference on Computer Communications
-  publishershort: IEEE INFOCOM'20
   date: '2020-07-01'
   link: https://doi.org/ghkkx4
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: IEEE INFOCOM'20
+  image: images/20INFOCOM_SpiderMon.gif
 - id: doi:10.1109/tmc.2020.2997602
   title: Charging Task Scheduling for Directional Wireless Charger Networks
   authors:
@@ -309,15 +369,17 @@
   - Jiaqi Zheng
   - Guihai Chen
   publisher: IEEE Transactions on Mobile Computing
-  publishershort: IEEE TMC
   date: '2021-11-01'
   link: https://doi.org/g9s2pw
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: IEEE TMC
+  image: images/20TMC_haste.png
 - id: doi:10.1145/3241539.3241568
-  title: 'VSkin: Sensing Touch Gestures on Surfaces of Mobile Devices Using Acoustic Signals'
+  title: 'VSkin: Sensing Touch Gestures on Surfaces of Mobile Devices Using Acoustic
+    Signals'
   authors:
   - Ke Sun
   - Ting Zhao
@@ -325,15 +387,17 @@
   - Lei Xie
   publisher: Proceedings of the 24th Annual International Conference on Mobile Computing
     and Networking
-  publishershort: ACM MobiCom'18
   date: '2018-10-15'
   link: https://doi.org/gfvpdd
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM MobiCom'18
+  image: images/18MobiCom_vskin.gif
 - id: doi:10.1145/3264950
-  title: 'Unlock with Your Heart: Heartbeat-based Authentication on Commercial Mobile Phones'
+  title: 'Unlock with Your Heart: Heartbeat-based Authentication on Commercial Mobile
+    Phones'
   authors:
   - Lei Wang
   - Kang Huang
@@ -344,13 +408,14 @@
   - Qing Gu
   publisher: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
     Technologies
-  publishershort: ACM IMWUT (UbiComp'18)
   date: '2018-09-18'
   link: https://doi.org/ghkqxx
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM IMWUT (UbiComp'18)
+  image: images/18IMWUT_Heartbeat.gif
 - id: doi:10.1145/3225058.3225080
   title: Charging Task Scheduling for Directional Wireless Charger Networks
   authors:
@@ -361,13 +426,14 @@
   - Jiaqi Zheng
   - Guihai Chen
   publisher: Proceedings of the 47th International Conference on Parallel Processing
-  publishershort: ACM ICPP'18
   date: '2018-08-13'
   link: https://doi.org/g9s2px
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM ICPP'18
+  image: images/20TMC_haste.png
 - id: doi:10.1145/3210240.3210315
   title: Depth Aware Finger Tapping on Virtual Displays
   authors:
@@ -377,13 +443,14 @@
   - Haipeng Dai
   publisher: Proceedings of the 16th Annual International Conference on Mobile Systems,
     Applications, and Services
-  publishershort: ACM MobiSys'18
   date: '2018-06-10'
   link: https://doi.org/gfvpdn
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM MobiSys'18
+  image: images/18MobiSys_ARtype.jpg
 - id: doi:10.1109/sahcn.2018.8397120
   title: 'WiTrace: Centimeter-Level Passive Gesture Tracking Using WiFi Signals'
   authors:
@@ -394,13 +461,14 @@
   - Xiaoyu Wang
   publisher: 2018 15th Annual IEEE International Conference on Sensing, Communication,
     and Networking (SECON)
-  publishershort: IEEE SECON'18
   date: '2018-06-01'
   link: https://doi.org/g9s2pz
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: IEEE SECON'18
+  image: images/21TMC_witrace.png
 - id: doi:10.1145/2973750.2973764
   title: Device-free gesture tracking using acoustic signals
   authors:
@@ -409,13 +477,14 @@
   - Ke Sun
   publisher: Proceedings of the 22nd Annual International Conference on Mobile Computing
     and Networking
-  publishershort: ACM MobiCom'16
   date: '2016-10-03'
   link: https://doi.org/gfv6b7
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM MobiCom'16
+  image: images/16MobiCom_llapfly.gif
 - id: doi:10.1145/2973750.2987385
   title: Device-free gesture tracking using acoustic signals
   authors:
@@ -424,10 +493,11 @@
   - Ke Sun
   publisher: Proceedings of the 22nd Annual International Conference on Mobile Computing
     and Networking
-  publishershort: ACM MobiCom'16
   date: '2016-10-03'
   link: https://doi.org/g9s2p2
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  publishershort: ACM MobiCom'16
+  image: images/16MobiCom_llapfly.gif
