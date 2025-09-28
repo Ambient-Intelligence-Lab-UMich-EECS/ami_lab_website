@@ -1,5 +1,28 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1145/3746059.3747714
+  title: 'UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with
+    Ultrasound Sensing on Consumer Wearables'
+  authors:
+  - Yadong Li
+  - Shuning Wang
+  - Yongjian Fu
+  - Justin Chen
+  - Xingyu Chen
+  - Ju Ren
+  - Xinyu Zhang
+  - Akshay Gadre
+  - Ke Sun
+  publisher: Proceedings of the 38th Annual ACM Symposium on User Interface Software
+    and Technology
+  date: '2025-09-27'
+  link: https://doi.org/g9474k
+  orcid: 0000-0001-9563-1398
+  ke-sun: true
+  plugin: orcid.py
+  file: orcid.yaml
+  publishershort: ACM UIST '25
+  image: images/25UIST_ultraposer.gif
 - id: doi:10.1109/sp61157.2025.00235
   title: 'EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio
     Adversarial Perturbations'
@@ -17,6 +40,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: IEEE S&P (Oakland) '25
+  image: images/25SP_eveguard.png
 - id: doi:10.1145/3715014.3724047
   title: 'Poster Abstract: On-Shelf Weight Difference Estimation Through Active Vibration
     Sensing'
@@ -37,6 +61,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM SenSys '25
+  image: images/25SenSys_weight.png
 - id: doi:10.1609/aaai.v39i22.34537
   title: Security Attacks on LLM-based Code Completion Tools
   authors:
@@ -51,7 +76,8 @@
   ke-sun: true
   plugin: sources.py
   file: sources.yaml
-  publishershort: AAAI
+  publishershort: AAAI '25
+  image: images/25AAAI_lcct.png
 - id: doi:10.14722/ndss.2025.230336
   title: 'Magmaw: Modality-Agnostic Adversarial Attacks on Machine Learning-Based
     Wireless Communication Systems'
@@ -69,6 +95,8 @@
   ke-sun: true
   plugin: orcid.py
   file: orcid.yaml
+  publishershort: NDSS '25
+  image: images/25NDSS_magmaw.png
 - id: doi:10.1145/3666025.3699351
   title: 'RFCanvas: Modeling RF Channel by Fusing Visual Priors and Few-shot RF Measurements'
   authors:
@@ -85,6 +113,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM SenSys '24
+  image: images/24SenSys_rfcanvas.png
 - id: doi:10.1145/3677122
   title: Towards Smartphone-based 3D Hand Pose Reconstruction Using Acoustic Signals
   authors:
@@ -123,6 +152,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM IMWUT (UbiComp'24)
+  image: images/24IMWUT_egoadl.png
 - id: doi:10.14722/ndss.2023.24077
   title: 'StealthyIMU: Stealing Permission-protected Private Information From Smartphone
     Voice Assistant Using Zero-Permission Sensors'
@@ -139,6 +169,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: NDSS
+  image: images/23NDSS_stealthyimu.jpg
 - id: doi:10.1109/TMC.2023.3241304
   title: 'SCALAR: Self-Calibrated Acoustic Ranging for Distributed Mobile Devices'
   authors:
@@ -159,6 +190,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: IEEE TMC
+  image: images/23TMC_scalar.jpg
 - id: doi:10.1145/3550293
   title: 'LoEar: Push the Range Limit of Acoustic Sensing for Vital Sign Monitoring'
   authors:
@@ -178,6 +210,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM IMWUT (UbiComp'22)
+  image: images/22IMWUT_loear.jpeg
 - id: doi:10.1145/3550336
   title: 'VECTOR: Velocity Based Temperature-field Monitoring with Distributed Acoustic
     Devices'
@@ -200,6 +233,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM IMWUT (UbiComp'22)
+  image: images/22IMWUT_VECTOR.jpg
 - id: doi:10.1145/3447993.3448626
   title: 'UltraSE: single-channel speech enhancement using ultrasound'
   authors:
@@ -214,6 +248,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM MobiCom'21
+  image: images/21MobiCom_ultrase.jpg
 - id: doi:10.1145/3412382.3458268
   title: 'ExGSense: Toward Facial Gesture Sensing with a Sparse Near-Eye Sensor Array'
   authors:
@@ -229,6 +264,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM/IEEE IPSN'21
+  image: images/21IPSN_exgsense.gif
 - id: doi:10.1109/TMC.2019.2961885
   title: 'WiTrace: Centimeter-Level Passive Gesture Tracking Using OFDM Signals'
   authors:
@@ -248,6 +284,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: IEEE TMC
+  image: images/21TMC_witrace.png
 - id: doi:10.1145/3384419.3430727
   title: '"Alexa, stop spying on me!" speech privacy protection against voice assistants'
   authors:
@@ -262,6 +299,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM SenSys'20
+  image: images/20SenSys_micshield.jpg
 - id: doi:10.1145/3384419.3430776
   title: 'milliEgo: single-chip mmWave radar aided egomotion estimation via deep sensor
     fusion'
@@ -283,6 +321,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM SenSys'20
+  image: images/20SenSys_milliego.jpg
 - id: doi:10.1109/infocom41043.2020.9155491
   title: 'Dynamic Speed Warping: Similarity-Based One-shot Learning for Device-free
     Gesture Signals'
@@ -300,6 +339,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: IEEE INFOCOM'20
+  image: images/20INFOCOM_dsw.jpg
 - id: doi:10.1109/infocom41043.2020.9155447
   title: 'SpiderMon: Towards Using Cell Towers as Illuminating Sources for Keystroke
     Monitoring'
@@ -318,6 +358,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: IEEE INFOCOM'20
+  image: images/20INFOCOM_SpiderMon.gif
 - id: doi:10.1109/tmc.2020.2997602
   title: Charging Task Scheduling for Directional Wireless Charger Networks
   authors:
@@ -335,6 +376,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: IEEE TMC
+  image: images/20TMC_haste.png
 - id: doi:10.1145/3241539.3241568
   title: 'VSkin: Sensing Touch Gestures on Surfaces of Mobile Devices Using Acoustic
     Signals'
@@ -352,6 +394,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM MobiCom'18
+  image: images/18MobiCom_vskin.gif
 - id: doi:10.1145/3264950
   title: 'Unlock with Your Heart: Heartbeat-based Authentication on Commercial Mobile
     Phones'
@@ -372,6 +415,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM IMWUT (UbiComp'18)
+  image: images/18IMWUT_Heartbeat.gif
 - id: doi:10.1145/3225058.3225080
   title: Charging Task Scheduling for Directional Wireless Charger Networks
   authors:
@@ -389,6 +433,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM ICPP'18
+  image: images/20TMC_haste.png
 - id: doi:10.1145/3210240.3210315
   title: Depth Aware Finger Tapping on Virtual Displays
   authors:
@@ -405,6 +450,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM MobiSys'18
+  image: images/18MobiSys_ARtype.jpg
 - id: doi:10.1109/sahcn.2018.8397120
   title: 'WiTrace: Centimeter-Level Passive Gesture Tracking Using WiFi Signals'
   authors:
@@ -422,6 +468,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: IEEE SECON'18
+  image: images/21TMC_witrace.png
 - id: doi:10.1145/2973750.2973764
   title: Device-free gesture tracking using acoustic signals
   authors:
@@ -437,6 +484,7 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM MobiCom'16
+  image: images/16MobiCom_llapfly.gif
 - id: doi:10.1145/2973750.2987385
   title: Device-free gesture tracking using acoustic signals
   authors:
@@ -452,3 +500,4 @@
   plugin: sources.py
   file: sources.yaml
   publishershort: ACM MobiCom'16
+  image: images/16MobiCom_llapfly.gif

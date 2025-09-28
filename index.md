@@ -2,7 +2,7 @@
 title: Home
 carousels:
   - images: 
-    - image: /ami_lab_website/images/ultraposer.gif
+    - image: /ami_lab_website/images/25UIST_ultraposer.gif
       title: "UltraPoser (UIST'25)"
     - image: /ami_lab_website/images/eveguard.png
       title: "EveGuard (S&P'25)"
