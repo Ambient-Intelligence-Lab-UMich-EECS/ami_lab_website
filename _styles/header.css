@@ -28,7 +28,7 @@ header a {
 }
 
 .logo {
-  height: 50px;
+  height: 75px;
 }
 
 .logo > * {
@@ -139,7 +139,7 @@ header[data-big] {
   }
 }
 header[data-big] .logo {
-  height: 150px;
+  height: 100px;
 }
 header[data-big] .title-text {
   flex-direction: column;
