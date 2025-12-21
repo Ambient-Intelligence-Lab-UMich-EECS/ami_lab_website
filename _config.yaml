@@ -2,16 +2,16 @@
 title: Ambient Intelligence Lab
 subtitle: 
 description: We envision a future where our environments intuitively adapt in real-time to augment human abilities through Ambient Intelligence (AmI).
-header: images/background.jpg
-footer: images/background.jpg
+header: images/background.png
+footer: images/background.png
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@Ambient-Intelligence-Lab-UMich-EECS.com
-  orcid: 0000-0001-8713-9213
+  email: kesuniot@umich.edu
+  orcid: 0000-0001-9563-1398
   google-scholar: YZWCK4gAAAAJ
-  github: https://github.com/Ambient-Intelligence-Lab-UMich-EECS
+  github: Ambient-Intelligence-Lab-UMich-EECS
   twitter: Ambient-Intelligence-Lab-UMich-EECS
   youtube: Ambient-Intelligence-Lab-UMich-EECS
 

@@ -10,8 +10,23 @@
 # Otherwise, leave `link` blank.
 # Please add the new entries on the top although these are sorted by date. 
 
-- title: AmI lab launches a new website!
-  date: 2025-08-01
+- title: KDC is accepted by NSDI 2026! Congratulations to Xingyu!
+  date: 2025-12-10
+  description: Knowledge-Driven Communication (KDC) is a framework that transmits semantic knowledge rather than raw bits by leveraging pretrained knowledge bases usng Vision-Language Models (VLMs).
+
+- title: EarCardio is accepted by MobiCom 2026! Congratulations to Yongjian!
+  date: 2025-12-02
+  description: EarCardio repurposes the IMU sensors in TWS earbuds for cardiac monitoring by capturing in-ear ballistocardiogram (BCG) signals.
+  url: https://www.youtube.com/watch?v=FrSbxhM5yII
+
+- title: MagicPatch is accepted by MobiCom 2026! Congratulations to Shuning!
+  date: 2025-12-02
+  description: MagicPatch proposes an efficient attack on millimeterwave (mmWave) security screening systems by designing a novel reflective metasurface patch that can be easily attached to clothing.
+  url: https://www.youtube.com/watch?v=Vgy-u9HlQOo
+
+- title: UWB-Prac is accepted by SenSys 2026! Congratulations to Kailai!
+  date: 2025-11-01
+  description: UWB-Prac is a real-time seat-level smartphone localization system that operates using only the existing single UWB anchor infrastructure commonly found in modern vehicles.
 
 - title: AmI lab warmly welcomes the first two Ph.D. students, Linzhen Zhu and Leonard Zhang, to join the lab!
   date: 2025-08-01
