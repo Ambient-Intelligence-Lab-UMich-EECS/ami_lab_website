@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["font.scss"],"names":[],"mappings":"AAAA","sourcesContent":["@font-face {\n}\n"],"file":"font.css"}
+{"version":3,"sourceRoot":"","sources":["font.scss"],"names":[],"mappings":"AAAA;EACE;EACA,KACE;EAEF","sourcesContent":["@font-face {\n  font-family: \"MyHelvetica\";\n  src:\n    local(\"Helvetica Neue Bold\"), local(\"HelveticaNeue-Bold\"),\n    url(\"MgOpenModernaBold.ttf\");\n  font-weight: bold;\n}"],"file":"font.css"}
