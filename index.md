@@ -25,7 +25,7 @@ Our research goals include:
 
 ## Research Highlight
 
-{% include carousel.html height="40" unit="%" duration="5" number="1" %}
+{% include carousel.html height="60" unit="%" duration="5" number="1" %}
 
 {% endcapture %}
 
