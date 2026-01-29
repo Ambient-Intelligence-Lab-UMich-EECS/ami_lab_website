@@ -13,10 +13,8 @@ AmI lab aims to co-design end-to-end mobile, wearable, and IoT systems to achiev
 
 **Applications Layers**: Enable critical or novel applications using MWIoT systems, including 
 - Human-Computer Interaction (HCI); 
-- Mobile, Household, and Industrial Robotics; 
-- Mobile Health 
-- Environmental Sensing; 
-- Autonomous Driving and UVA;
+- Mobile Robotics, Autonomous Driving and UVA;
+- Mobile Health, and Environmental Sensing; 
 - Multimedia for new scenarios, like 6G, Metaverse, etc.
 
 **Data Processing Layers**: Design the sensor computational models for MWIoT systems to make them i). accurate; ii). intelligent; iii). robust; iv) personalized;
@@ -26,11 +24,8 @@ AmI lab aims to co-design end-to-end mobile, wearable, and IoT systems to achiev
 {% capture col2 %} 
 
 **Systems Layers**: Design the MWIoT systems to achieve
-- energy efficiency;
-- computational efficiency; 
-- communication efficiency;
-- trustworthiness; and
-- privacy preservation.
+- Energy, Computational, Communication Efficiency;
+- Trustworthiness and Privacy Preservation.
 
 **Sensing Layers**: Innovate low-cost solutions with minimal or no hardware modifications to maximize the potential of ubiquitous sensors on existing MWIoT systems. Except for traditional sensors like audio and vision, we specifically focus on ubiquitous MWIoT sensors, like radio frequency, ultrasound, electromagnetic, capacitive sensors, biopotential signals, and olfactory sensors, etc.
 
