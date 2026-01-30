@@ -3,9 +3,9 @@ title: Home
 carousels:
   - images: 
     - image: /ami_lab_website/images/25UIST_ultraposer.gif
-      title: "UltraPoser (UIST'25)"
+      title: "UltraPoser: IMU-based Full-Body Pose Estimation with Ultrasound Sensing on Consumer Wearables (UIST'25)"
     - image: /ami_lab_website/images/eveguard.png
-      title: "EveGuard (S&P'25)"
+      title: "EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio Adversarial Perturbations (S&P'25)"
 ---
 
 ## AmI (Ambient Intelligence) Lab
