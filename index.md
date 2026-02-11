@@ -9,7 +9,7 @@ carousels:
 ---
 
 ## AmI (Ambient Intelligence) Lab
-We are a research lab at in CSE of the EECS Department at the University of Michigan, Ann Arbor led by Prof. **[Ke Sun](https://samsonsjarkal.github.io/KeSun/)**. We envision a future where our environments intuitively adapt in real-time to augment human abilities through **Ambient Intelligence (AmI)**. In this future, devices, sensors, and processors are seamlessly embedded into everyday objects and spaces, creating intelligent systems that proactively adjust to individual needs. Guided by this vision, the AmI Lab focuses on developing **intelligent, cost-effective, deployable, human-centric, and trustworthy Mobile, Wearable, and IoT (MWIoT) systems**.
+We are a research lab in CSE (EECS Department) at the University of Michigan, Ann Arbor led by Prof. **[Ke Sun](https://samsonsjarkal.github.io/KeSun/)**. We envision a future where our environments intuitively adapt in real-time to augment human abilities through **Ambient Intelligence (AmI)**. In this future, devices, sensors, and processors are seamlessly embedded into everyday objects and spaces, creating intelligent systems that proactively adjust to individual needs. Guided by this vision, the AmI Lab focuses on developing **intelligent, cost-effective, deployable, human-centric, and trustworthy Mobile, Wearable, and IoT (MWIoT) systems**.
 
 {% capture col1 %}
 
