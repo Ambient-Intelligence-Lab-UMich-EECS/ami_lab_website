@@ -7,6 +7,9 @@ footer {
   padding: 40px;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+  background: var(--surface);
+  border-top: 1px solid var(--edge);
 }
 
 footer a {

@@ -1,7 +1,67 @@
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes glow-shift {
+  0% {
+    box-shadow: var(--shadow);
+  }
+  50% {
+    box-shadow: 0 0 0 1px var(--edge), 0 22px 55px rgba(8, 32, 56, 0.14);
+  }
+  100% {
+    box-shadow: var(--shadow);
+  }
+}
 main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+}
+
+main > section,
+.home-main-grid,
+.feature {
+  animation: rise-in 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+main > section:nth-of-type(2),
+main > section:nth-of-type(3),
+.home-main-grid + section,
+.home-main-grid + .feature {
+  animation-delay: 0.08s;
+}
+
+.citation,
+.card,
+.portrait,
+.news-card,
+.feature-image {
+  transition: transform var(--transition), box-shadow var(--transition), border-color var(--transition), background var(--transition);
+}
+
+.citation:hover,
+.card:hover,
+.portrait:hover,
+.news-card:hover,
+.feature:hover .feature-image {
+  animation: glow-shift 0.45s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

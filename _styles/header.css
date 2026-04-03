@@ -7,6 +7,9 @@ header {
   gap: 20px;
   padding: 20px;
   box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+  background: var(--surface);
+  border-bottom: 1px solid var(--edge);
   position: sticky !important;
   top: 0;
   z-index: 10 !important;
@@ -97,15 +100,18 @@ nav {
 }
 
 nav > a {
-  padding: 7px;
+  padding: 9px 12px;
   font-weight: 900;
-  font-size: 17px;
-  background-color: rgba(3, 2, 2, 0.7);
-  border-radius: 2px;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  background: linear-gradient(180deg, var(--surface-strong), var(--surface));
+  border: 1px solid var(--edge);
+  border-radius: 999px;
 }
 
 nav > a:hover {
   color: var(--primary);
+  transform: translateY(-1px);
 }
 
 @media (max-width: 700px) {
@@ -130,13 +136,15 @@ header[data-big] {
   align-items: end;
   flex-direction: row;
   padding: 10px 0;
-  top: unset;
 }
 @media (max-width: 700px) {
   header[data-big] {
     flex-direction: column;
     align-items: start;
   }
+}
+header[data-big] {
+  top: unset;
 }
 header[data-big] .logo {
   height: 100px;
@@ -148,6 +156,8 @@ header[data-big] .title-text {
 }
 header[data-big] .title {
   font-size: var(--xxl);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 header[data-big] .subtitle {
   font-size: var(--large);

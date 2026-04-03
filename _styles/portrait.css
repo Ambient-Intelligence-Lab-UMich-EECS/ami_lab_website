@@ -12,6 +12,10 @@
   width: 175px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
+  padding: 12px;
+  border-radius: calc(var(--rounded) + 6px);
+  background: var(--surface);
+  border: 1px solid transparent;
 }
 
 .portrait[data-style=small] {
@@ -35,7 +39,7 @@
   width: calc(20px + 10%);
   aspect-ratio: 1/1;
   border-radius: 999px;
-  background: var(--background);
+  background: var(--surface-strong);
   box-shadow: var(--shadow);
   transform: translate(14%, 14%);
 }
@@ -56,6 +60,12 @@
   border-radius: 999px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  border: 2px solid var(--edge);
+}
+
+.portrait:hover {
+  border-color: var(--edge);
+  transform: translateY(-3px);
 }
 
 .portrait[data-style=tiny] .portrait-image {

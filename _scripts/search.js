@@ -153,6 +153,12 @@
   const updateTags = (query) => {
     const { tags } = splitQuery(query);
     document.querySelectorAll(tagSelector).forEach((tag) => {
+      const customQuery = (tag.dataset.query || "").trim();
+      if (customQuery) {
+        if (customQuery === query.trim()) tag.setAttribute("data-active", "");
+        else tag.removeAttribute("data-active");
+        return;
+      }
       // set active if tag is in query
       if (tags.includes(normalizeTag(tag.innerText)))
         tag.setAttribute("data-active", "");

@@ -30,4 +30,116 @@
   background: var(--light-gray);
 }
 
+.tags[data-group=sensing] .tag,
+.tag[data-group=sensing] {
+  background: rgba(0, 39, 76, 0.12);
+  border: 1px solid rgba(0, 39, 76, 0.18);
+  color: #00274c;
+}
+
+.tags[data-group=sensing] .tag:hover,
+.tags[data-group=sensing] .tag[data-active],
+.tag[data-group=sensing]:hover,
+.tag[data-group=sensing][data-active] {
+  background: rgba(0, 39, 76, 0.18);
+}
+
+.tags[data-group=applications] .tag,
+.tag[data-group=applications] {
+  background: rgba(255, 203, 5, 0.22);
+  border: 1px solid rgba(180, 140, 0, 0.22);
+  color: #5b4200;
+}
+
+.tags[data-group=applications] .tag:hover,
+.tags[data-group=applications] .tag[data-active],
+.tag[data-group=applications]:hover,
+.tag[data-group=applications][data-active] {
+  background: rgba(255, 203, 5, 0.32);
+}
+
+.tags[data-group=system] .tag,
+.tag[data-group=system] {
+  background: rgba(18, 95, 87, 0.12);
+  border: 1px solid rgba(18, 95, 87, 0.18);
+  color: #125f57;
+}
+
+.tags[data-group=system] .tag:hover,
+.tags[data-group=system] .tag[data-active],
+.tag[data-group=system]:hover,
+.tag[data-group=system][data-active] {
+  background: rgba(18, 95, 87, 0.2);
+}
+
+.tags[data-group=venue] .tag,
+.tag[data-group=venue] {
+  background: rgba(88, 60, 150, 0.12);
+  border: 1px solid rgba(88, 60, 150, 0.18);
+  color: #583c96;
+}
+
+.tags[data-group=venue] .tag:hover,
+.tags[data-group=venue] .tag[data-active],
+.tag[data-group=venue]:hover,
+.tag[data-group=venue][data-active] {
+  background: rgba(88, 60, 150, 0.22);
+}
+
+[data-dark=true] .tags[data-group=sensing] .tag,
+[data-dark=true] .tag[data-group=sensing] {
+  background: rgba(107, 184, 255, 0.16);
+  border-color: rgba(107, 184, 255, 0.26);
+  color: #d8ecff;
+}
+
+[data-dark=true] .tags[data-group=sensing] .tag:hover,
+[data-dark=true] .tags[data-group=sensing] .tag[data-active],
+[data-dark=true] .tag[data-group=sensing]:hover,
+[data-dark=true] .tag[data-group=sensing][data-active] {
+  background: rgba(107, 184, 255, 0.26);
+}
+
+[data-dark=true] .tags[data-group=applications] .tag,
+[data-dark=true] .tag[data-group=applications] {
+  background: rgba(255, 203, 5, 0.16);
+  border-color: rgba(255, 203, 5, 0.24);
+  color: #ffde66;
+}
+
+[data-dark=true] .tags[data-group=applications] .tag:hover,
+[data-dark=true] .tags[data-group=applications] .tag[data-active],
+[data-dark=true] .tag[data-group=applications]:hover,
+[data-dark=true] .tag[data-group=applications][data-active] {
+  background: rgba(255, 203, 5, 0.26);
+}
+
+[data-dark=true] .tags[data-group=system] .tag,
+[data-dark=true] .tag[data-group=system] {
+  background: rgba(77, 211, 190, 0.12);
+  border-color: rgba(77, 211, 190, 0.24);
+  color: #90f0df;
+}
+
+[data-dark=true] .tags[data-group=system] .tag:hover,
+[data-dark=true] .tags[data-group=system] .tag[data-active],
+[data-dark=true] .tag[data-group=system]:hover,
+[data-dark=true] .tag[data-group=system][data-active] {
+  background: rgba(77, 211, 190, 0.22);
+}
+
+[data-dark=true] .tags[data-group=venue] .tag,
+[data-dark=true] .tag[data-group=venue] {
+  background: rgba(160, 132, 255, 0.14);
+  border-color: rgba(160, 132, 255, 0.24);
+  color: #d6c9ff;
+}
+
+[data-dark=true] .tags[data-group=venue] .tag:hover,
+[data-dark=true] .tags[data-group=venue] .tag[data-active],
+[data-dark=true] .tag[data-group=venue]:hover,
+[data-dark=true] .tag[data-group=venue][data-active] {
+  background: rgba(160, 132, 255, 0.24);
+}
+
 /*# sourceMappingURL=tags.css.map */
