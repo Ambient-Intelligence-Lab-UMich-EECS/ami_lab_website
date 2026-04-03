@@ -7,29 +7,31 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 40px 0 20px 0;
+  margin: 32px 0 16px 0;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
   text-align: left;
-  letter-spacing: 1px;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: 1.6rem;
-  font-weight: var(--regular);
+  font-size: 1.7rem;
+  font-weight: var(--semi-bold);
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   text-align: center;
 }
 
 h2 {
-  font-size: 1.6rem;
-  padding-bottom: 5px;
-  border-bottom: solid 1px var(--light-gray);
-  font-weight: var(--regular);
+  font-size: 1.5rem;
+  padding-bottom: 8px;
+  border-bottom: solid 1px var(--edge);
+  font-weight: var(--semi-bold);
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.28rem;
 }
 
 h4 {
@@ -45,6 +47,6 @@ h6 {
 }
 
 :where(h1, h2, h3, h4, h5, h6) > .icon {
-  margin-right: 1em;
-  color: var(--secondary);
+  margin-right: 0.65em;
+  color: var(--icon-color);
 }

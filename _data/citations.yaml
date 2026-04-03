@@ -1,5 +1,31 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1145/3789674
+  title: 'SoilNutri: A Passive Metasurface-based, Low-cost System for Soil Moisture
+    and Nitrogen Monitoring'
+  authors:
+  - Juexing Wang
+  - Binbin Xie
+  - Yimeng Liu
+  - Minhao Cui
+  - Xiao Zhang
+  - Guangjing Wang
+  - Ke Sun
+  - Zhichao Cao
+  - Huacheng Zeng
+  - Qingxu Jin
+  - Younsuk Dong
+  - Hui Li
+  - Jie Xiong
+  - Tianxing Li
+  publisher: Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous
+    Technologies
+  date: '2026-03-16'
+  link: https://doi.org/hbvtp5
+  orcid: 0000-0001-9563-1398
+  ke-sun: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1145/3746059.3747714
   title: 'UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with
     Ultrasound Sensing on Consumer Wearables'
@@ -619,3 +645,117 @@
   tags:
   - human computer interaction
   - ultrasound
+- title: "Moir\xE9Lens: Bringing Schlieren Imaging into Real-World Environments Using\
+    \ Moir\xE9 Patterns"
+  type: unpublished
+  authors:
+  - Linzhen Zhu
+  - Runqiu Wang
+  - Yi Rong
+  - Ke Sun
+  publisher: Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems
+  date: '2026-05-01'
+  ke-sun: true
+  publishershort: ACM SenSys '26
+  description: "Moir\xE9Lens demonstrates that everyday cameras can be used for visualizing\
+    \ air-flow and refractive-index dynamics by converting subtle refractive-index\
+    \ variations into measurable Moire phase shifts."
+  tags:
+  - vision
+  - environmental sensing
+  - human computer interaction
+  plugin: sources.py
+  file: sources.yaml
+- title: Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo
+    Earbuds
+  type: unpublished
+  authors:
+  - Yongjian Fu
+  - Ke Sun
+  - Xinyu Zhang
+  - Ruyao Wang
+  - Xinyi Li
+  - Hao Pan
+  - Yaoxue Zhang
+  - Ju Ren
+  publisher: Proceedings of the 32nd Annual International Conference on Mobile Computing
+    and Networking
+  date: '2026-11-01'
+  ke-sun: true
+  publishershort: ACM MobiCom '26
+  description: EarCardio repurposes the IMU sensors in true wireless stereo earbuds
+    for practical cardiac monitoring by capturing in-ear ballistocardiogram signals.
+  tags:
+  - mobile health
+  - motion sensor
+  - biosignals
+  plugin: sources.py
+  file: sources.yaml
+- title: Attacking mmWave Imaging Using Metasurfaces Based on Intensity and Time-of-Flight
+    Manipulation
+  type: unpublished
+  authors:
+  - Shuning Wang
+  - Yongjian Fu
+  - Hao Pan
+  - Xinyi Li
+  - Linghui Zhong
+  - Yaxiong Xie
+  - Ke Sun
+  - Guangtao Xue
+  - Yaoxue Zhang
+  - Ju Ren
+  publisher: Proceedings of the 32nd Annual International Conference on Mobile Computing
+    and Networking
+  date: '2026-11-01'
+  ke-sun: true
+  publishershort: ACM MobiCom '26
+  description: MagicPatch proposes an efficient attack on millimeter-wave security
+    screening systems using a reflective metasurface patch that can be attached to
+    clothing.
+  tags:
+  - security privacy
+  - radio frequency
+  plugin: sources.py
+  file: sources.yaml
+- title: 'From Bits to Tokens: Knowledge-Driven Generative Communication of Multimodal
+    Data'
+  type: unpublished
+  authors:
+  - Xingyu Chen
+  - Zihao Feng
+  - Wuqiong Zhao
+  - Jianrong Ding
+  - Ke Sun
+  - Xinyu Zhang
+  publisher: 23rd USENIX Symposium on Networked Systems Design and Implementation
+  date: '2026-05-01'
+  ke-sun: true
+  publishershort: USENIX NSDI '26
+  description: KDC transmits semantic knowledge rather than raw bits to improve communication
+    efficiency for multimodal sensing workloads.
+  tags:
+  - wireless communication
+  - multimodal
+  - text
+  plugin: sources.py
+  file: sources.yaml
+- title: UWB-based Localization of Smartphones Inside a Vehicle to Prevent Distracted
+    Driving
+  type: unpublished
+  authors:
+  - Kailai Cui
+  - Ke Sun
+  - Kang G. Shin
+  publisher: Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems
+  date: '2026-05-01'
+  ke-sun: true
+  publishershort: ACM SenSys '26
+  description: UWB-Prac is a real-time seat-level smartphone localization system that
+    uses the single UWB anchor infrastructure already available in modern vehicles.
+  tags:
+  - radio frequency
+  - human computer interaction
+  - mobile robotics
+  plugin: sources.py
+  file: sources.yaml

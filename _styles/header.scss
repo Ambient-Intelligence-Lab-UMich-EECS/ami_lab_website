@@ -16,6 +16,9 @@ header {
   gap: 20px;
   padding: 20px;
   box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+  background: var(--surface);
+  border-bottom: 1px solid var(--edge);
 
   @if $sticky {
     position: sticky !important;
@@ -109,15 +112,18 @@ nav {
 }
 
 nav > a {
-  padding: 7px;
+  padding: 9px 12px;
   font-weight: 900;
-  font-size: 17px;
-  background-color: rgba(3, 2, 2, 0.7);
-  border-radius: 2px;        // Rounded corners
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  background: linear-gradient(180deg, var(--surface-strong), var(--surface));
+  border: 1px solid var(--edge);
+  border-radius: 999px;
 }
 
 nav > a:hover {
   color: var(--primary);
+  transform: translateY(-1px);
 }
 
 header:not([data-big]) {
@@ -165,6 +171,8 @@ header[data-big] {
 
   .title {
     font-size: var(--xxl);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
 
   .subtitle {

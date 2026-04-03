@@ -4,6 +4,10 @@ FROM ruby:3.1.2
 # set working directory within container
 WORKDIR /usr/src/app
 
+# Avoid platform-specific gem resolution mismatches between macOS-generated
+# lockfiles and Linux containers.
+ENV BUNDLE_FORCE_RUBY_PLATFORM=true
+
 # pull in ruby (jekyll) and python (cite process) package info
 COPY Gemfile Gemfile.lock _cite/requirements.txt ./
 

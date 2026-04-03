@@ -2,6 +2,7 @@
 name: Hyunmin Park
 image: images/min.jpg # upload your pic to images folder.
 role: phd # change to your role (PhD/Master/Visiting/Undergraduate Student) 
+description: PhD Student, co-advised with Alanson Sample
 affiliation: University of Michigan
 links:
   email: phyunmin@umich.edu

@@ -1,0 +1,6 @@
+# Local overrides for previewing the site with the same base path used on GitHub Pages.
+# Use with:
+#   bundle exec jekyll serve --config _config.yaml,_config.local.yaml
+
+url: http://127.0.0.1:4000
+baseurl: /ami_lab_website

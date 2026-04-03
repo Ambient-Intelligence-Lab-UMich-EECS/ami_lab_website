@@ -13,6 +13,9 @@
 {% if tags.size > 0 or include.repo %}
   <div
     class="tags"
+    {% if include.group %}
+      data-group="{{ include.group | xml_escape }}"
+    {% endif %}
     {% if include.repo %}
       data-repo="{{ include.repo | xml_escape }}"
     {% endif %}
@@ -21,12 +24,110 @@
     {% endif %}
   >
     {% for tag in tags %}
+      {% assign visible_tag = tag | replace: "-", " " %}
+      {% assign tag_group = "" %}
+      {% assign tag_query = "" %}
+      {% if tag == "acoustics" %}
+        {% assign tag_group = "sensing" %}
+        {% assign tag_query = '"tag: ultrasound" "tag: speech"' %}
+      {% elsif tag == "light" %}
+        {% assign tag_group = "sensing" %}
+        {% assign tag_query = '"tag: vision"' %}
+      {% elsif tag == "rf" %}
+        {% assign tag_group = "sensing" %}
+        {% assign tag_query = '"tag: radio-frequency"' %}
+      {% elsif tag == "motion-sensors" %}
+        {% assign tag_group = "sensing" %}
+        {% assign tag_query = '"tag: motion-sensor"' %}
+        {% assign visible_tag = "motion sensors" %}
+      {% elsif tag == "biosensors" %}
+        {% assign tag_group = "sensing" %}
+        {% assign tag_query = '"tag: biosignals"' %}
+      {% elsif tag == "multi-modal" %}
+        {% assign tag_group = "sensing" %}
+        {% assign tag_query = '"tag: multimodal"' %}
+      {% elsif tag == "extended-sensing-capabilities" %}
+        {% assign tag_group = "system" %}
+        {% assign tag_query = '"tag: ultrasound" "tag: vision" "tag: radio-frequency" "tag: vibration" "tag: motion-sensor" "tag: biosignals" "tag: multimodal"' %}
+        {% assign visible_tag = "extended sensing capabilities" %}
+      {% elsif tag == "privacy" %}
+        {% assign tag_group = "system" %}
+        {% assign tag_query = 'privacy' %}
+      {% elsif tag == "security" %}
+        {% assign tag_group = "system" %}
+        {% assign tag_query = 'security' %}
+      {% elsif tag == "communication" %}
+        {% assign tag_group = "system" %}
+        {% assign tag_query = '"tag: wireless-communication"' %}
+      {% elsif tag == "computation-&-storage" %}
+        {% assign tag_group = "system" %}
+        {% assign tag_query = 'computation storage' %}
+        {% assign visible_tag = "computation & storage" %}
+      {% elsif tag == "hci" %}
+        {% assign tag_group = "applications" %}
+        {% assign tag_query = '"tag: human-computer-interaction"' %}
+      {% elsif tag == "speech-processing" %}
+        {% assign tag_group = "applications" %}
+        {% assign tag_query = '"tag: speech"' %}
+        {% assign visible_tag = "speech processing" %}
+      {% elsif tag == "health-sensing" %}
+        {% assign tag_group = "applications" %}
+        {% assign tag_query = '"tag: mobile-health"' %}
+        {% assign visible_tag = "health sensing" %}
+      {% elsif tag == "environmental-sensing" %}
+        {% assign tag_group = "applications" %}
+        {% assign tag_query = '"tag: environmental-sensing"' %}
+        {% assign visible_tag = "environmental sensing" %}
+      {% elsif tag == "robotic-sensing" %}
+        {% assign tag_group = "applications" %}
+        {% assign tag_query = '"tag: mobile-robotics"' %}
+        {% assign visible_tag = "robotic sensing" %}
+      {% elsif tag == "sensor-security" %}
+        {% assign tag_group = "applications" %}
+        {% assign tag_query = 'sensor security' %}
+        {% assign visible_tag = "sensor security" %}
+      {% elsif tag == "sensor-privacy-attack-and-defense" %}
+        {% assign tag_group = "applications" %}
+        {% assign tag_query = 'privacy defense' %}
+        {% assign visible_tag = "sensor privacy attack and defense" %}
+      {% elsif tag == "mobile-computing" %}
+        {% assign tag_group = "venue" %}
+        {% assign tag_query = '"MobiCom" "IMWUT" "MobiSys" "TMC"' %}
+        {% assign visible_tag = "mobile computing" %}
+      {% elsif tag == "human-computer-interaction" %}
+        {% assign tag_group = "venue" %}
+        {% assign tag_query = '"UIST" "IMWUT" "MobiSys"' %}
+        {% assign visible_tag = "human computer interaction" %}
+      {% elsif tag == "computer-networks" %}
+        {% assign tag_group = "venue" %}
+        {% assign tag_query = '"NSDI" "INFOCOM" "SenSys"' %}
+        {% assign visible_tag = "computer networks" %}
+      {% elsif tag == "ml/ai" %}
+        {% assign tag_group = "venue" %}
+        {% assign tag_query = '"AAAI"' %}
+      {% elsif tag == "multimodal" or tag == "ultrasound" or tag == "speech" or tag == "motion-sensor" or tag == "vibration" or tag == "radio-frequency" or tag == "biosignals" or tag == "vision" or tag == "text" %}
+        {% assign tag_group = "sensing" %}
+      {% elsif tag == "human-computer-interaction" or tag == "home-iot" or tag == "industrial-iot" or tag == "mobile-health" or tag == "mobile-robotics" or tag == "wireless-communication" or tag == "security-privacy" or tag == "environmental-sensing" %}
+        {% assign tag_group = "applications" %}
+      {% endif %}
+      {% assign href_query = tag_query | default: "" %}
+      {% if href_query != "" %}
+        {% assign href = link | relative_url | append: '?search=' | append: href_query | uri_escape %}
+      {% else %}
+        {% assign href = link | relative_url | append: '?search=%22tag:%20' | append: tag | append: '%22' %}
+      {% endif %}
       <a
-        href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
+        href="{{ href }}"
         class="tag"
+        {% if tag_group != "" %}
+          data-group="{{ tag_group }}"
+        {% endif %}
+        {% if tag_query != "" %}
+          data-query="{{ tag_query | xml_escape }}"
+        {% endif %}
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
-        {{ tag }}
+        {{ visible_tag }}
       </a>
     {% endfor %}
   </div>

@@ -10,8 +10,8 @@ nav:
 {%
   include button.html
   type="email"
-  text="kesuniot@umich.com"
-  link="kesuniot@umich.com"
+  text="kesuniot@umich.edu"
+  link="kesuniot@umich.edu"
 %}
 {%
   include button.html
@@ -25,4 +25,3 @@ nav:
   tooltip="Our location on Google Maps for easy navigation"
   link="https://www.google.com/maps/place/BBB+Building/@42.2930177,-83.7189469,17z/data=!3m1!4b1!4m6!3m5!1s0x883cae86591b880f:0x72e1a6c1f9d48d42!8m2!3d42.2930138!4d-83.716372!16s%2Fg%2F11cm0f1d79?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D"
 %}
-

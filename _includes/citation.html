@@ -10,7 +10,7 @@
 
 <div class="citation-container">
   <div class="citation">
-    {% if include.style == "rich" %}
+    {% if include.style == "rich" and citation.image %}
       <a
         {% if citation.link %}
           href="{{ citation.link | relative_url | uri_escape }}"
@@ -63,14 +63,18 @@
         <span class="citation-publisher">
           <span style="color: red;"> <strong>{{- citation.publishershort | default: "[no publisher info]" -}}</strong> </span>
         </span>
-        &nbsp;·&nbsp;
-        <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
-        </span>
-        &nbsp;·&nbsp;
-        <span class="citation-id">
-          {{- citation.id | default: "[no id info]" -}}
-        </span>
+        {% if citation.date %}
+          &nbsp;·&nbsp;
+          <span class="citation-date">
+            {{- citation.date | date: "%d %b %Y" -}}
+          </span>
+        {% endif %}
+        {% if citation.id %}
+          &nbsp;·&nbsp;
+          <span class="citation-id">
+            {{- citation.id -}}
+          </span>
+        {% endif %}
       </div>
 
       {% if include.style == "rich" %}
@@ -100,8 +104,60 @@
           </div>
         {% endif %}
 
-        {% if citation.tags.size > 0 or citation.repo %}
-          {% include tags.html tags=citation.tags repo=citation.repo %}
+        {% assign manual_tags = site.data.publication_tags[citation.title] %}
+        {% assign raw_tags = citation.tags | default: empty | join: "|" | downcase %}
+        {% assign mapped_tags = manual_tags | default: empty | join: "," %}
+        {% unless manual_tags %}
+          {% if raw_tags contains "ultrasound" or raw_tags contains "speech" %}
+            {% assign mapped_tags = mapped_tags | append: "Acoustics," %}
+          {% endif %}
+          {% if raw_tags contains "vision" %}
+            {% assign mapped_tags = mapped_tags | append: "Light," %}
+          {% endif %}
+          {% if raw_tags contains "radio frequency" %}
+            {% assign mapped_tags = mapped_tags | append: "RF," %}
+          {% endif %}
+          {% if raw_tags contains "vibration" %}
+            {% assign mapped_tags = mapped_tags | append: "Vibration," %}
+          {% endif %}
+          {% if raw_tags contains "motion sensor" %}
+            {% assign mapped_tags = mapped_tags | append: "Motion Sensors," %}
+          {% endif %}
+          {% if raw_tags contains "biosignals" %}
+            {% assign mapped_tags = mapped_tags | append: "Biosensors," %}
+          {% endif %}
+          {% if raw_tags contains "multimodal" %}
+            {% assign mapped_tags = mapped_tags | append: "Multi-modal," %}
+          {% endif %}
+          {% if raw_tags contains "ultrasound" or raw_tags contains "vision" or raw_tags contains "radio frequency" or raw_tags contains "vibration" or raw_tags contains "motion sensor" or raw_tags contains "biosignals" or raw_tags contains "multimodal" %}
+            {% assign mapped_tags = mapped_tags | append: "Extended Sensing Capabilities," %}
+          {% endif %}
+          {% if raw_tags contains "wireless communication" %}
+            {% assign mapped_tags = mapped_tags | append: "Communication," %}
+          {% endif %}
+          {% if raw_tags contains "security privacy" %}
+            {% assign mapped_tags = mapped_tags | append: "Security,Privacy,Sensor Security,Sensor Privacy Attack and Defense," %}
+          {% endif %}
+          {% if raw_tags contains "human computer interaction" %}
+            {% assign mapped_tags = mapped_tags | append: "HCI," %}
+          {% endif %}
+          {% if raw_tags contains "speech" %}
+            {% assign mapped_tags = mapped_tags | append: "Speech Processing," %}
+          {% endif %}
+          {% if raw_tags contains "mobile health" or raw_tags contains "biosignals" %}
+            {% assign mapped_tags = mapped_tags | append: "Health Sensing," %}
+          {% endif %}
+          {% if raw_tags contains "environmental sensing" %}
+            {% assign mapped_tags = mapped_tags | append: "Environmental Sensing," %}
+          {% endif %}
+          {% if raw_tags contains "mobile robotics" %}
+            {% assign mapped_tags = mapped_tags | append: "Robotic Sensing," %}
+          {% endif %}
+        {% endunless %}
+        {% assign mapped_tags = mapped_tags | split: "," | array_filter | uniq %}
+
+        {% if mapped_tags.size > 0 or citation.repo %}
+          {% include tags.html tags=mapped_tags repo=citation.repo %}
         {% endif %}
       {% endif %}
     </div>

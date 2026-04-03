@@ -42,10 +42,12 @@
       </span>
     {% endif %}
 
+    {% unless include.suppress_affiliation %}
     {% if member.affiliation %}
       <span class="portrait-affiliation">
         {{ member.affiliation }}
       </span>
     {% endif %}
+    {% endunless %}
   </a>
 </div>

@@ -1,0 +1,142 @@
+"SoilNutri: A Passive Metasurface-based, Low-cost System for Soil Moisture and Nitrogen Monitoring":
+  - RF
+  - Environmental Sensing
+  - Extended Sensing Capabilities
+"UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with Ultrasound Sensing on Consumer Wearables":
+  - Acoustics
+  - Motion Sensors
+  - Multi-modal
+  - HCI
+  - Extended Sensing Capabilities
+"EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio Adversarial Perturbations":
+  - Acoustics
+  - Vibration
+  - Security
+  - Privacy
+  - Sensor Privacy Attack and Defense
+"Poster Abstract: On-Shelf Weight Difference Estimation Through Active Vibration Sensing":
+  - Vibration
+  - Extended Sensing Capabilities
+"Security Attacks on LLM-based Code Completion Tools":
+  - Security
+  - Sensor Security
+"Magmaw: Modality-Agnostic Adversarial Attacks on Machine Learning-Based Wireless Communication Systems":
+  - RF
+  - Multi-modal
+  - Communication
+  - Security
+  - Sensor Security
+"RFCanvas: Modeling RF Channel by Fusing Visual Priors and Few-shot RF Measurements":
+  - RF
+  - Light
+  - Communication
+  - Extended Sensing Capabilities
+"Towards Smartphone-based 3D Hand Pose Reconstruction Using Acoustic Signals":
+  - Acoustics
+  - HCI
+  - Extended Sensing Capabilities
+"Multimodal Daily-Life Logging in Free-living Environment Using Non-Visual Egocentric Sensors on a Smartphone":
+  - Acoustics
+  - RF
+  - Motion Sensors
+  - Multi-modal
+  - Health Sensing
+  - Extended Sensing Capabilities
+"StealthyIMU: Stealing Permission-protected Private Information From Smartphone Voice Assistant Using Zero-Permission Sensors":
+  - Motion Sensors
+  - Acoustics
+  - Security
+  - Privacy
+  - Sensor Privacy Attack and Defense
+"SCALAR: Self-Calibrated Acoustic Ranging for Distributed Mobile Devices":
+  - Acoustics
+  - HCI
+  - Extended Sensing Capabilities
+"LoEar: Push the Range Limit of Acoustic Sensing for Vital Sign Monitoring":
+  - Acoustics
+  - Health Sensing
+  - Extended Sensing Capabilities
+"VECTOR: Velocity Based Temperature-field Monitoring with Distributed Acoustic Devices":
+  - Acoustics
+  - Environmental Sensing
+  - Extended Sensing Capabilities
+"UltraSE: single-channel speech enhancement using ultrasound":
+  - Acoustics
+  - Multi-modal
+  - Speech Processing
+  - Extended Sensing Capabilities
+"ExGSense: Toward Facial Gesture Sensing with a Sparse Near-Eye Sensor Array":
+  - Biosensors
+  - HCI
+  - Extended Sensing Capabilities
+"WiTrace: Centimeter-Level Passive Gesture Tracking Using OFDM Signals":
+  - RF
+  - HCI
+  - Extended Sensing Capabilities
+"\"Alexa, stop spying on me!\" speech privacy protection against voice assistants":
+  - Acoustics
+  - Security
+  - Privacy
+  - Sensor Privacy Attack and Defense
+"milliEgo: single-chip mmWave radar aided egomotion estimation via deep sensor fusion":
+  - RF
+  - Motion Sensors
+  - Multi-modal
+  - Robotic Sensing
+  - Extended Sensing Capabilities
+"Dynamic Speed Warping: Similarity-Based One-shot Learning for Device-free Gesture Signals":
+  - Acoustics
+  - HCI
+  - Extended Sensing Capabilities
+"SpiderMon: Towards Using Cell Towers as Illuminating Sources for Keystroke Monitoring":
+  - RF
+  - Security
+  - Privacy
+  - Sensor Privacy Attack and Defense
+"Charging Task Scheduling for Directional Wireless Charger Networks":
+  - RF
+  - Communication
+  - Computation & Storage
+"VSkin: Sensing Touch Gestures on Surfaces of Mobile Devices Using Acoustic Signals":
+  - Acoustics
+  - Vibration
+  - HCI
+  - Extended Sensing Capabilities
+"Unlock with Your Heart: Heartbeat-based Authentication on Commercial Mobile Phones":
+  - Motion Sensors
+  - Biosensors
+  - Health Sensing
+  - Security
+  - Privacy
+  - Sensor Privacy Attack and Defense
+"Depth Aware Finger Tapping on Virtual Displays":
+  - Acoustics
+  - Light
+  - Multi-modal
+  - HCI
+  - Extended Sensing Capabilities
+"Device-free gesture tracking using acoustic signals":
+  - Acoustics
+  - HCI
+  - Extended Sensing Capabilities
+"MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns":
+  - Light
+  - Environmental Sensing
+  - Extended Sensing Capabilities
+"Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo Earbuds":
+  - Motion Sensors
+  - Biosensors
+  - Health Sensing
+  - Extended Sensing Capabilities
+"Attacking mmWave Imaging Using Metasurfaces Based on Intensity and Time-of-Flight Manipulation":
+  - RF
+  - Security
+  - Sensor Security
+"From Bits to Tokens: Knowledge-Driven Generative Communication of Multimodal Data":
+  - Multi-modal
+  - Communication
+  - Computation & Storage
+"UWB-based Localization of Smartphones Inside a Vehicle to Prevent Distracted Driving":
+  - RF
+  - HCI
+  - Robotic Sensing

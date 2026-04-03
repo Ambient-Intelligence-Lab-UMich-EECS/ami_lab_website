@@ -10,9 +10,13 @@
 # Otherwise, leave `link` blank.
 # Please add the new entries on the top although these are sorted by date. 
 
+- title: MoiréLens is accepted by SenSys 2026! Congratulations to Linzhen and Runqiu!
+  date: 2026-03-01
+  description: MoiréLens brings Schlieren imaging into real-world environments by converting subtle airflow-induced refractive-index changes into measurable moire phase shifts.
+
 - title: KDC is accepted by NSDI 2026! Congratulations to Xingyu!
   date: 2025-12-10
-  description: Knowledge-Driven Communication (KDC) is a framework that transmits semantic knowledge rather than raw bits by leveraging pretrained knowledge bases usng Vision-Language Models (VLMs).
+  description: Knowledge-Driven Communication is a framework that transmits semantic knowledge rather than raw bits by leveraging pretrained knowledge bases with Vision-Language Models.
 
 - title: EarCardio is accepted by MobiCom 2026! Congratulations to Yongjian!
   date: 2025-12-02
@@ -41,7 +45,7 @@
 
 - title: UltraPoser has been accepted at ACM UIST 2025. Congratulations to the Yadong and Shuning! 
   date: 2025-07-15
-  description: UltraPoser is a multi-modal full-body motion capture system using commdity wearable devices only to integrate ultrasonic sensing 
+  description: UltraPoser is a multi-modal full-body motion capture system using commodity wearable devices only to integrate ultrasonic sensing 
     with inertial measurements for improved fidelity, broader coverage and increased reliability.
   url: https://uist.acm.org/2025/
 
@@ -49,5 +53,4 @@
   date: 2025-05-01
   description: EveGuard is a software-driven defense framework that creates adversarial audio, protecting voice privacy from side channels 
     (including mmWave radars, light sensors, and accelerometers) without compromising human perception.
-  url: https://uist.acm.org/2025/
-
+  url: https://www.computer.org/csdl/proceedings-article/sp/2025/611570a217/26hiTkHYjh6
