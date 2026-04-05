@@ -506,6 +506,11 @@
 .home-side-list .news-title {
   font-size: 0.94rem;
   line-height: 1.25;
+  font-weight: 400;
+}
+
+.home-side-list .news-title strong {
+  font-weight: 700;
 }
 
 .home-side-list .news-date,
@@ -610,13 +615,15 @@
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0c">
         
+          <input class="carousel__activator" type="radio" name="carousel0" id="0d">
+        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0c"></label>
+              <label class="carousel__control carousel__control--backward" for="0d"></label>
               <label class="carousel__control carousel__control--forward" for="0b"></label>
           </div>
         
@@ -635,6 +642,15 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0b"></label>
+              <label class="carousel__control carousel__control--forward" for="0d"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0c"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
@@ -642,11 +658,33 @@
           <ul>
             
             <li class="carousel__slide">
-              <img class="carousel__slide-image" src="/ami_lab_website/images/24SenSys_rfcanvas.png" alt="RFCanvas: Modeling RF Channel by Fusing Visual Priors and Few-shot RF Measurements (SenSys'24)" data-image="/ami_lab_website/images/24SenSys_rfcanvas.png" loading="lazy">
+              <img class="carousel__slide-image" src="/ami_lab_website/images/moirelens.gif" alt="MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns (SenSys'26)" data-image="/ami_lab_website/images/moirelens.gif" loading="lazy">
               
                 <div class="carousel__figure-title">
                   
-                    <a href="https://doi.org/g9s2pn">RFCanvas: Modeling RF Channel by Fusing Visual Priors and Few-shot RF Measurements (SenSys'24)</a>
+                    <a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/">MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns (SenSys'26)</a>
+                  
+                </div>
+              
+            </li>
+            
+            <li class="carousel__slide">
+              <img class="carousel__slide-image" src="/ami_lab_website/images/earcardio.gif" alt="EarCardio: Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo Earbuds (MobiCom'26)" data-image="/ami_lab_website/images/earcardio.gif" loading="lazy">
+              
+                <div class="carousel__figure-title">
+                  
+                    <a href="https://www.youtube.com/watch?v=FrSbxhM5yII">EarCardio: Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo Earbuds (MobiCom'26)</a>
+                  
+                </div>
+              
+            </li>
+            
+            <li class="carousel__slide">
+              <img class="carousel__slide-image" src="/ami_lab_website/images/magicpatch.gif" alt="MagicPatch: Attacking mmWave Imaging Using Metasurfaces Based on Intensity and Time-of-Flight Manipulation (MobiCom'26)" data-image="/ami_lab_website/images/magicpatch.gif" loading="lazy">
+              
+                <div class="carousel__figure-title">
+                  
+                    <a href="https://www.youtube.com/watch?v=Vgy-u9HlQOo">MagicPatch: Attacking mmWave Imaging Using Metasurfaces Based on Intensity and Time-of-Flight Manipulation (MobiCom'26)</a>
                   
                 </div>
               
@@ -657,18 +695,7 @@
               
                 <div class="carousel__figure-title">
                   
-                    <a href="https://doi.org/g9474k">UltraPoser: IMU-based Full-Body Pose Estimation with Ultrasound Sensing on Consumer Wearables (UIST'25)</a>
-                  
-                </div>
-              
-            </li>
-            
-            <li class="carousel__slide">
-              <img class="carousel__slide-image" src="/ami_lab_website/images/eveguard.png" alt="EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio Adversarial Perturbations (S&amp;P'25)" data-image="/ami_lab_website/images/eveguard.png" loading="lazy">
-              
-                <div class="carousel__figure-title">
-                  
-                    <a href="https://doi.org/g9s9z9">EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio Adversarial Perturbations (S&amp;P'25)</a>
+                    <a href="https://github.com/leeyadong/UltraPoser">UltraPoser: IMU-based Full-Body Pose Estimation with Ultrasound Sensing on Consumer Wearables (UIST'25)</a>
                   
                 </div>
               
@@ -683,6 +710,8 @@
               <label class="carousel__indicator" for="0b"></label>
             
               <label class="carousel__indicator" for="0c"></label>
+            
+              <label class="carousel__indicator" for="0d"></label>
             
         </div>
     </div>
@@ -794,6 +823,29 @@
   opacity: 1;
 }
 
+.carousel__activator:nth-of-type(4):checked ~ .carousel__track {
+  -webkit-transform: translateX(-300%);
+          transform: translateX(-300%);
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__slide:nth-of-type(4) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__controls:nth-of-type(4) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(4) {
+  opacity: 1;
+}
+
 
 .carousel__control {
   height: 30px;
@@ -878,6 +930,11 @@
           transform: translateX(200%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(4) {
+  -webkit-transform: translateX(300%);
+          transform: translateX(300%);
+}
+
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -917,6 +974,12 @@
 }
 
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(3) {
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
   background-size: contain; 
   background-position: center;
   background-repeat: no-repeat;
@@ -998,37 +1061,96 @@
 
     <div class="news-card">
   <div class="news-header">
-    <span class="news-title">MoiréLens is accepted by SenSys 2026! Congratulations to Linzhen and Runqiu!</span>
-    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> March 01, 2026</span>
+    <span class="news-title"><strong><a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/">MoiréLens</a></strong> (sensing and visualizing invisible air flow change) is accepted by <strong>SenSys 2026</strong>! Congratulations to <a href="https://linzhenzhu.me/">Linzhen</a> and <a href="https://runqiuw.github.io/">Runqiu</a>!
+</span>
+    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> Mar 2026</span>
+  </div>
+  
+    <div class="news-description">
+      
+        
+          
+          
+          <a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/" target="_blank"><i class="icon fa-solid fa-globe"></i> Website</a>
+        
+          
+          
+          <a href="https://www.youtube.com/watch?v=CNfV-hcBNz8" target="_blank"><i class="icon fa-brands fa-youtube"></i> Video demo</a>
+        
+      
+    </div>
+  
+</div>
+
+    <div class="news-card">
+  <div class="news-header">
+    <span class="news-title"><strong>KDC</strong> (Sensor data delivery through knowledge-driven communication using MLLM) is accepted by <strong>NSDI 2026</strong>! Congratulations to <a href="https://xingyuchen.me/">Xingyu</a>!
+</span>
+    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> Dec 2025</span>
   </div>
   
 </div>
 
     <div class="news-card">
   <div class="news-header">
-    <span class="news-title">KDC is accepted by NSDI 2026! Congratulations to Xingyu!</span>
-    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> December 10, 2025</span>
+    <span class="news-title"><strong>MagicPatch</strong> (attack on mmWave security screening systems) is accepted by <strong>MobiCom 2026</strong>! Congratulations to Shuning!
+</span>
+    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> Dec 2025</span>
+  </div>
+  
+    <div class="news-description">
+      
+        
+        
+        
+        <a href="https://www.youtube.com/watch?v=Vgy-u9HlQOo" target="_blank"><i class="icon fa-brands fa-youtube"></i> Video demo</a>
+      
+    </div>
+  
+</div>
+
+    <div class="news-card">
+  <div class="news-header">
+    <span class="news-title"><strong>EarCardio</strong> (cardiac monitoring using commercial TWS earbuds) is accepted by <strong>MobiCom 2026</strong>! Congratulations to <a href="https://fuyongjian.github.io/">Yongjian</a>!
+</span>
+    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> Dec 2025</span>
+  </div>
+  
+    <div class="news-description">
+      
+        
+        
+        
+        <a href="https://www.youtube.com/watch?v=FrSbxhM5yII" target="_blank"><i class="icon fa-brands fa-youtube"></i> Video demo</a>
+      
+    </div>
+  
+</div>
+
+    <div class="news-card">
+  <div class="news-header">
+    <span class="news-title"><strong>UWB-Prac</strong> is accepted by <strong>SenSys 2026</strong>! Congratulations to <a href="https://ambient-intelligence-lab-umich-eecs.github.io/ami_lab_website/members/Kailai-Cui.html">Kailai</a>!
+</span>
+    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> Nov 2025</span>
   </div>
   
 </div>
 
     <div class="news-card">
   <div class="news-header">
-    <span class="news-title">MagicPatch is accepted by MobiCom 2026! Congratulations to Shuning!</span>
-    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> December 02, 2025</span>
+    <span class="news-title">Samsung START Project supports our lab’s research on multi-modal lifelong memory augmentation systems.
+</span>
+    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> Aug 2025</span>
   </div>
   
-    <div class="news-description"><a href="https://www.youtube.com/watch?v=Vgy-u9HlQOo" target="_blank">More...</a></div>
-  
-</div>
-
-    <div class="news-card">
-  <div class="news-header">
-    <span class="news-title">EarCardio is accepted by MobiCom 2026! Congratulations to Yongjian!</span>
-    <span class="news-date"><i class="icon fa-regular fa-calendar"></i> December 02, 2025</span>
-  </div>
-  
-    <div class="news-description"><a href="https://www.youtube.com/watch?v=FrSbxhM5yII" target="_blank">More...</a></div>
+    <div class="news-description">
+      
+        
+        
+        
+        <a href="https://cse.engin.umich.edu/stories/samsung-start-funds-cse-researchers-wearable-memory-augmentation-system/" target="_blank"><i class="icon fa-solid fa-globe"></i> Website</a>
+      
+    </div>
   
 </div>
 
@@ -1140,7 +1262,7 @@
 
 
   <div class="button-wrapper">
-    <a class="button" href="https://youtube.com/Ambient-Intelligence-Lab-UMich-EECS" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
+    <a class="button" href="https://youtube.com/@AmI-UMich" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
       <i class="icon fa-brands fa-youtube"></i>
       
     </a>
