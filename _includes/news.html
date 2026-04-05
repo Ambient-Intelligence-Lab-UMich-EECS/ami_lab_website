@@ -1,12 +1,26 @@
 <div class="news-card">
     <div class="news-header">
-        <span class="news-title">{{ include.title }}</span>
-        <span class="news-date">{% include icon.html icon="fa-regular fa-calendar" %} {{ include.date | date: "%B %d, %Y" }} </span>
+        <span class="news-title">{{ include.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+        <span class="news-date">{% include icon.html icon="fa-regular fa-calendar" %} {{ include.date | date: "%b %Y" }} </span>
     </div>
     <div class="news-description">
         {{ include.description }} 
-            {% if include.url %}
-            <a href="{{ include.url }}" target="_blank">More...</a>
+            {% if include.links %}
+              {% for item in include.links %}
+                {% assign news_link_icon = "fa-solid fa-globe" %}
+                {% if item.label == "Video demo" or item.url contains "youtube.com" or item.url contains "youtu.be" %}
+                  {% assign news_link_icon = "fa-brands fa-youtube" %}
+                {% endif %}
+                <a href="{{ item.url }}" target="_blank">{% include icon.html icon=news_link_icon %} {{ item.label }}</a>
+              {% endfor %}
+            {% elsif include.url %}
+              {% assign news_link_label = "Website" %}
+              {% assign news_link_icon = "fa-solid fa-globe" %}
+              {% if include.url contains "youtube.com" or include.url contains "youtu.be" %}
+                {% assign news_link_label = "Video demo" %}
+                {% assign news_link_icon = "fa-brands fa-youtube" %}
+              {% endif %}
+              <a href="{{ include.url }}" target="_blank">{% include icon.html icon=news_link_icon %} {{ news_link_label }}</a>
             {% endif %}
     </div>
 </div>

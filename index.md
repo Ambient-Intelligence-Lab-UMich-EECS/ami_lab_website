@@ -2,15 +2,18 @@
 title: Home
 carousels:
   - images: 
-    - image: images/24SenSys_rfcanvas.png
-      title: "RFCanvas: Modeling RF Channel by Fusing Visual Priors and Few-shot RF Measurements (SenSys'24)"
-      link: https://doi.org/g9s2pn
+    - image: images/moirelens.gif
+      title: "MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns (SenSys'26)"
+      link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
+    - image: images/earcardio.gif
+      title: "EarCardio: Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo Earbuds (MobiCom'26)"
+      link: https://www.youtube.com/watch?v=FrSbxhM5yII
+    - image: images/magicpatch.gif
+      title: "MagicPatch: Attacking mmWave Imaging Using Metasurfaces Based on Intensity and Time-of-Flight Manipulation (MobiCom'26)"
+      link: https://www.youtube.com/watch?v=Vgy-u9HlQOo
     - image: images/25UIST_ultraposer.gif
       title: "UltraPoser: IMU-based Full-Body Pose Estimation with Ultrasound Sensing on Consumer Wearables (UIST'25)"
-      link: https://doi.org/g9474k
-    - image: images/eveguard.png
-      title: "EveGuard: Defeating Vibration-based Side-Channel Eavesdropping with Audio Adversarial Perturbations (S&P'25)"
-      link: https://doi.org/g9s9z9
+      link: https://github.com/leeyadong/UltraPoser
 ---
 
 <style>
@@ -58,6 +61,11 @@ carousels:
 .home-side-list .news-title {
   font-size: 0.94rem;
   line-height: 1.25;
+  font-weight: 400;
+}
+
+.home-side-list .news-title strong {
+  font-weight: 700;
 }
 
 .home-side-list .news-date,
@@ -166,15 +174,33 @@ If you are interested in the AmI Lab's ongoing research projects, please visit t
 ## {% include icon.html icon="fa-solid fa-newspaper" %}Lab News
 
 {% assign sorted_news = site.data.news | sort: "date" | reverse %}
-{% for post in sorted_news limit:4 %}
+{% for post in sorted_news limit:6 %}
 
 <div class="news-card">
   <div class="news-header">
-    <span class="news-title">{{ post.title }}</span>
-    <span class="news-date">{% include icon.html icon="fa-regular fa-calendar" %} {{ post.date | date: "%B %d, %Y" }}</span>
+    <span class="news-title">{{ post.title | markdownify | remove: "<p>" | remove: "</p>" }}</span>
+    <span class="news-date">{% include icon.html icon="fa-regular fa-calendar" %} {{ post.date | date: "%b %Y" }}</span>
   </div>
   {% if post.url %}
-    <div class="news-description"><a href="{{ post.url }}" target="_blank">More...</a></div>
+    <div class="news-description">
+      {% if post.links %}
+        {% for item in post.links %}
+          {% assign news_link_icon = "fa-solid fa-globe" %}
+          {% if item.label == "Video demo" or item.url contains "youtube.com" or item.url contains "youtu.be" %}
+            {% assign news_link_icon = "fa-brands fa-youtube" %}
+          {% endif %}
+          <a href="{{ item.url }}" target="_blank">{% include icon.html icon=news_link_icon %} {{ item.label }}</a>
+        {% endfor %}
+      {% else %}
+        {% assign news_link_label = "Website" %}
+        {% assign news_link_icon = "fa-solid fa-globe" %}
+        {% if post.url contains "youtube.com" or post.url contains "youtu.be" %}
+          {% assign news_link_label = "Video demo" %}
+          {% assign news_link_icon = "fa-brands fa-youtube" %}
+        {% endif %}
+        <a href="{{ post.url }}" target="_blank">{% include icon.html icon=news_link_icon %} {{ news_link_label }}</a>
+      {% endif %}
+    </div>
   {% endif %}
 </div>
 

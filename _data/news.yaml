@@ -10,25 +10,31 @@
 # Otherwise, leave `link` blank.
 # Please add the new entries on the top although these are sorted by date. 
 
-- title: MoiréLens is accepted by SenSys 2026! Congratulations to Linzhen and Runqiu!
+- title: "**[MoiréLens](https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/)** (sensing and visualizing invisible air flow change) is accepted by **SenSys 2026**! Congratulations to [Linzhen](https://linzhenzhu.me/) and [Runqiu](https://runqiuw.github.io/)!"
   date: 2026-03-01
   description: MoiréLens brings Schlieren imaging into real-world environments by converting subtle airflow-induced refractive-index changes into measurable moire phase shifts.
+  url: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
+  links:
+    - label: Website
+      url: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
+    - label: Video demo
+      url: https://www.youtube.com/watch?v=CNfV-hcBNz8
 
-- title: KDC is accepted by NSDI 2026! Congratulations to Xingyu!
+- title: "**KDC** (Sensor data delivery through knowledge-driven communication using MLLM) is accepted by **NSDI 2026**! Congratulations to [Xingyu](https://xingyuchen.me/)!"
   date: 2025-12-10
   description: Knowledge-Driven Communication is a framework that transmits semantic knowledge rather than raw bits by leveraging pretrained knowledge bases with Vision-Language Models.
 
-- title: EarCardio is accepted by MobiCom 2026! Congratulations to Yongjian!
+- title: "**EarCardio** (cardiac monitoring using commercial TWS earbuds) is accepted by **MobiCom 2026**! Congratulations to [Yongjian](https://fuyongjian.github.io/)!"
   date: 2025-12-02
   description: EarCardio repurposes the IMU sensors in TWS earbuds for cardiac monitoring by capturing in-ear ballistocardiogram (BCG) signals.
   url: https://www.youtube.com/watch?v=FrSbxhM5yII
 
-- title: MagicPatch is accepted by MobiCom 2026! Congratulations to Shuning!
+- title: "**MagicPatch** (attack on mmWave security screening systems) is accepted by **MobiCom 2026**! Congratulations to Shuning!"
   date: 2025-12-02
   description: MagicPatch proposes an efficient attack on millimeterwave (mmWave) security screening systems by designing a novel reflective metasurface patch that can be easily attached to clothing.
   url: https://www.youtube.com/watch?v=Vgy-u9HlQOo
 
-- title: UWB-Prac is accepted by SenSys 2026! Congratulations to Kailai!
+- title: "**UWB-Prac** is accepted by **SenSys 2026**! Congratulations to [Kailai](https://ambient-intelligence-lab-umich-eecs.github.io/ami_lab_website/members/Kailai-Cui.html)!"
   date: 2025-11-01
   description: UWB-Prac is a real-time seat-level smartphone localization system that operates using only the existing single UWB anchor infrastructure commonly found in modern vehicles.
 
@@ -43,13 +49,13 @@
     multi-modal lifelong memory augmentation system that can capture, store, and retrieve human experiences in real-time.
   url: https://cse.engin.umich.edu/stories/samsung-start-funds-cse-researchers-wearable-memory-augmentation-system/
 
-- title: UltraPoser has been accepted at ACM UIST 2025. Congratulations to the Yadong and Shuning! 
+- title: "**UltraPoser** has been accepted at **ACM UIST 2025**. Congratulations to the Yadong and Shuning!" 
   date: 2025-07-15
   description: UltraPoser is a multi-modal full-body motion capture system using commodity wearable devices only to integrate ultrasonic sensing 
     with inertial measurements for improved fidelity, broader coverage and increased reliability.
   url: https://uist.acm.org/2025/
 
-- title: EveGuard has been accepted at IEEE S&P (Oakland) 2025. Congratulations to the Jung-woo! 
+- title: "**EveGuard** has been accepted at **IEEE S&P (Oakland) 2025**. Congratulations to the Jung-woo!" 
   date: 2025-05-01
   description: EveGuard is a software-driven defense framework that creates adversarial audio, protecting voice privacy from side channels 
     (including mmWave radars, light sensors, and accelerometers) without compromising human perception.
