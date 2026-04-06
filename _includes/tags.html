@@ -29,50 +29,50 @@
       {% assign tag_query = "" %}
       {% if tag == "acoustics" %}
         {% assign tag_group = "sensing" %}
-        {% assign tag_query = '"tag: ultrasound" "tag: speech"' %}
+        {% assign tag_query = '"tag: acoustics"' %}
       {% elsif tag == "light" %}
         {% assign tag_group = "sensing" %}
-        {% assign tag_query = '"tag: vision"' %}
+        {% assign tag_query = '"tag: light"' %}
       {% elsif tag == "rf" %}
         {% assign tag_group = "sensing" %}
-        {% assign tag_query = '"tag: radio-frequency"' %}
+        {% assign tag_query = '"tag: rf"' %}
       {% elsif tag == "motion-sensors" %}
         {% assign tag_group = "sensing" %}
-        {% assign tag_query = '"tag: motion-sensor"' %}
+        {% assign tag_query = '"tag: motion-sensors"' %}
         {% assign visible_tag = "motion sensors" %}
       {% elsif tag == "biosensors" %}
         {% assign tag_group = "sensing" %}
-        {% assign tag_query = '"tag: biosignals"' %}
+        {% assign tag_query = '"tag: biosensors"' %}
       {% elsif tag == "multi-modal" %}
         {% assign tag_group = "sensing" %}
-        {% assign tag_query = '"tag: multimodal"' %}
+        {% assign tag_query = '"tag: multi-modal"' %}
       {% elsif tag == "extended-sensing-capabilities" %}
         {% assign tag_group = "system" %}
-        {% assign tag_query = '"tag: ultrasound" "tag: vision" "tag: radio-frequency" "tag: vibration" "tag: motion-sensor" "tag: biosignals" "tag: multimodal"' %}
+        {% assign tag_query = '"tag: extended-sensing-capabilities"' %}
         {% assign visible_tag = "extended sensing capabilities" %}
       {% elsif tag == "privacy" %}
         {% assign tag_group = "system" %}
-        {% assign tag_query = 'privacy' %}
+        {% assign tag_query = '"tag: privacy"' %}
       {% elsif tag == "security" %}
         {% assign tag_group = "system" %}
-        {% assign tag_query = 'security' %}
+        {% assign tag_query = '"tag: security"' %}
       {% elsif tag == "communication" %}
         {% assign tag_group = "system" %}
-        {% assign tag_query = '"tag: wireless-communication"' %}
+        {% assign tag_query = '"tag: communication"' %}
       {% elsif tag == "computation-&-storage" %}
         {% assign tag_group = "system" %}
-        {% assign tag_query = 'computation storage' %}
+        {% assign tag_query = '"tag: computation-&-storage"' %}
         {% assign visible_tag = "computation & storage" %}
       {% elsif tag == "hci" %}
         {% assign tag_group = "applications" %}
-        {% assign tag_query = '"tag: human-computer-interaction"' %}
+        {% assign tag_query = '"tag: hci"' %}
       {% elsif tag == "speech-processing" %}
         {% assign tag_group = "applications" %}
-        {% assign tag_query = '"tag: speech"' %}
+        {% assign tag_query = '"tag: speech-processing"' %}
         {% assign visible_tag = "speech processing" %}
       {% elsif tag == "health-sensing" %}
         {% assign tag_group = "applications" %}
-        {% assign tag_query = '"tag: mobile-health"' %}
+        {% assign tag_query = '"tag: health-sensing"' %}
         {% assign visible_tag = "health sensing" %}
       {% elsif tag == "environmental-sensing" %}
         {% assign tag_group = "applications" %}
@@ -80,15 +80,15 @@
         {% assign visible_tag = "environmental sensing" %}
       {% elsif tag == "robotic-sensing" %}
         {% assign tag_group = "applications" %}
-        {% assign tag_query = '"tag: mobile-robotics"' %}
+        {% assign tag_query = '"tag: robotic-sensing"' %}
         {% assign visible_tag = "robotic sensing" %}
       {% elsif tag == "sensor-security" %}
         {% assign tag_group = "applications" %}
-        {% assign tag_query = 'sensor security' %}
+        {% assign tag_query = '"tag: sensor-security"' %}
         {% assign visible_tag = "sensor security" %}
       {% elsif tag == "sensor-privacy-attack-and-defense" %}
         {% assign tag_group = "applications" %}
-        {% assign tag_query = 'privacy defense' %}
+        {% assign tag_query = '"tag: sensor-privacy-attack-and-defense"' %}
         {% assign visible_tag = "sensor privacy attack and defense" %}
       {% elsif tag == "mobile-computing" %}
         {% assign tag_group = "venue" %}

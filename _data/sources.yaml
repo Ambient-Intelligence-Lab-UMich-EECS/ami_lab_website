@@ -11,6 +11,7 @@
   date: '2026-05-01'
   ke-sun: true
   publishershort: "ACM SenSys '26"
+  image: images/moirelens.gif
   description: MoiréLens demonstrates that everyday cameras can be used for visualizing air-flow and refractive-index dynamics by converting subtle refractive-index variations into measurable Moire phase shifts.
   tags:
     - vision
@@ -31,6 +32,7 @@
   date: '2026-11-01'
   ke-sun: true
   publishershort: "ACM MobiCom '26"
+  image: images/earcardio.gif
   description: EarCardio repurposes the IMU sensors in true wireless stereo earbuds for practical cardiac monitoring by capturing in-ear ballistocardiogram signals.
   tags:
     - mobile health
@@ -53,6 +55,7 @@
   date: '2026-11-01'
   ke-sun: true
   publishershort: "ACM MobiCom '26"
+  image: images/magicpatch.gif
   description: MagicPatch proposes an efficient attack on millimeter-wave security screening systems using a reflective metasurface patch that can be attached to clothing.
   tags:
     - security privacy
@@ -70,6 +73,7 @@
   date: '2026-05-01'
   ke-sun: true
   publishershort: "USENIX NSDI '26"
+  image: images/kdc.png
   description: KDC transmits semantic knowledge rather than raw bits to improve communication efficiency for multimodal sensing workloads.
   tags:
     - wireless communication
@@ -85,6 +89,7 @@
   date: '2026-05-01'
   ke-sun: true
   publishershort: "ACM SenSys '26"
+  image: images/uwbptrac.jpg
   description: UWB-Prac is a real-time seat-level smartphone localization system that uses the single UWB anchor infrastructure already available in modern vehicles.
   tags:
     - radio frequency

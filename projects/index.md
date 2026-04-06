@@ -32,35 +32,35 @@ nav:
 ### Sensing Modalities
 <div class="tags" data-group="sensing">
   <a href="{{ page.dir | relative_url }}" class="tag" data-query="">all</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20ultrasound%22%20%22tag%3A%20speech%22" class="tag" data-query='"tag: ultrasound" "tag: speech"'>acoustics</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20vision%22" class="tag" data-query='"tag: vision"'>light</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20radio-frequency%22" class="tag" data-query='"tag: radio-frequency"'>rf</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20acoustics%22" class="tag" data-query='"tag: acoustics"'>acoustics</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20light%22" class="tag" data-query='"tag: light"'>light</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20rf%22" class="tag" data-query='"tag: rf"'>rf</a>
   <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20vibration%22" class="tag" data-query='"tag: vibration"'>vibration</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20motion-sensor%22" class="tag" data-query='"tag: motion-sensor"'>motion sensors</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20biosignals%22" class="tag" data-query='"tag: biosignals"'>biosensors</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20multimodal%22" class="tag" data-query='"tag: multimodal"'>multi-modal</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20motion-sensors%22" class="tag" data-query='"tag: motion-sensors"'>motion sensors</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20biosensors%22" class="tag" data-query='"tag: biosensors"'>biosensors</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20multi-modal%22" class="tag" data-query='"tag: multi-modal"'>multi-modal</a>
 </div>
 
 ### System Challenges
 <div class="tags" data-group="system">
   <a href="{{ page.dir | relative_url }}" class="tag" data-query="">all</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20ultrasound%22%20%22tag%3A%20vision%22%20%22tag%3A%20radio-frequency%22%20%22tag%3A%20vibration%22%20%22tag%3A%20motion-sensor%22%20%22tag%3A%20biosignals%22%20%22tag%3A%20multimodal%22" class="tag" data-query='"tag: ultrasound" "tag: vision" "tag: radio-frequency" "tag: vibration" "tag: motion-sensor" "tag: biosignals" "tag: multimodal"'>extended sensing capabilities</a>
-  <a href="{{ page.dir | relative_url }}?search=privacy" class="tag" data-query='privacy'>privacy</a>
-  <a href="{{ page.dir | relative_url }}?search=security" class="tag" data-query='security'>security</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20wireless-communication%22" class="tag" data-query='"tag: wireless-communication"'>communication</a>
-  <a href="{{ page.dir | relative_url }}?search=computation%20storage" class="tag" data-query='computation storage'>computation &amp; storage</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20extended-sensing-capabilities%22" class="tag" data-query='"tag: extended-sensing-capabilities"'>extended sensing capabilities</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20privacy%22" class="tag" data-query='"tag: privacy"'>privacy</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20security%22" class="tag" data-query='"tag: security"'>security</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20communication%22" class="tag" data-query='"tag: communication"'>communication</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20computation-%26-storage%22" class="tag" data-query='"tag: computation-&-storage"'>computation &amp; storage</a>
 </div>
 
 ### Applications
 <div class="tags" data-group="applications">
   <a href="{{ page.dir | relative_url }}" class="tag" data-query="">all</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20human-computer-interaction%22" class="tag" data-query='"tag: human-computer-interaction"'>hci</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20speech%22" class="tag" data-query='"tag: speech"'>speech processing</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20mobile-health%22" class="tag" data-query='"tag: mobile-health"'>health sensing</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20hci%22" class="tag" data-query='"tag: hci"'>hci</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20speech-processing%22" class="tag" data-query='"tag: speech-processing"'>speech processing</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20health-sensing%22" class="tag" data-query='"tag: health-sensing"'>health sensing</a>
   <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20environmental-sensing%22" class="tag" data-query='"tag: environmental-sensing"'>environmental sensing</a>
-  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20mobile-robotics%22" class="tag" data-query='"tag: mobile-robotics"'>robotic sensing</a>
-  <a href="{{ page.dir | relative_url }}?search=sensor%20security" class="tag" data-query='sensor security'>sensor security</a>
-  <a href="{{ page.dir | relative_url }}?search=privacy%20defense" class="tag" data-query='privacy defense'>sensor privacy attack and defense</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20robotic-sensing%22" class="tag" data-query='"tag: robotic-sensing"'>robotic sensing</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20sensor-security%22" class="tag" data-query='"tag: sensor-security"'>sensor security</a>
+  <a href="{{ page.dir | relative_url }}?search=%22tag%3A%20sensor-privacy-attack-and-defense%22" class="tag" data-query='"tag: sensor-privacy-attack-and-defense"'>sensor privacy attack and defense</a>
 </div>
 
 ### Venue Areas
