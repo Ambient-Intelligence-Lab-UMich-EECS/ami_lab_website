@@ -26,8 +26,6 @@
   ke-sun: true
   plugin: orcid.py
   file: orcid.yaml
-  publishershort: ACM IMWUT (UbiComp'26)
-  image: images/SoilNutri.png
 - id: doi:10.1145/3746059.3747714
   title: 'UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with
     Ultrasound Sensing on Consumer Wearables'
