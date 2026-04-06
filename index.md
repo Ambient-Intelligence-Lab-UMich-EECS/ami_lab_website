@@ -165,7 +165,7 @@ AmI Lab is in CSE at the University of Michigan led by Prof. **[Ke Sun](https://
 
 ## Recent Research Highlight
 
-{% include carousel.html height="58" unit="%" duration="5" number="1" %}
+{% include carousel.html height="58" unit="%" duration="15" number="1" %}
 
 If you are interested in the AmI Lab's ongoing research projects, please visit the [Research page]({{ "/research/" | relative_url }}).
   </div>
