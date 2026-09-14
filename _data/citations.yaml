@@ -1,5 +1,36 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1145/3774906.3802765
+  title: "Moir\xE9Lens: Bringing Schlieren Imaging into Real-World Environments Using\
+    \ Moir\xE9 Patterns"
+  authors:
+  - Linzhen Zhu
+  - Runqiu Wang
+  - Yi Rong
+  - Ke Sun
+  publisher: Proceedings of the 2026 ACM/IEEE International Conference on Embedded
+    Artificial Intelligence and Sensing Systems
+  date: '2026-05-10'
+  link: https://doi.org/hcjjbk
+  orcid: 0000-0001-9563-1398
+  ke-sun: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1145/3774906.3800472
+  title: UWB-Based Localization of Smartphones inside a Vehicle to Prevent Distracted
+    Driving
+  authors:
+  - Kailai Cui
+  - Ke Sun
+  - Kang Geun Shin
+  publisher: Proceedings of the 2026 ACM/IEEE International Conference on Embedded
+    Artificial Intelligence and Sensing Systems
+  date: '2026-05-10'
+  link: https://doi.org/hcjjbm
+  orcid: 0000-0001-9563-1398
+  ke-sun: true
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1145/3789674
   title: 'SoilNutri: A Passive Metasurface-based, Low-cost System for Soil Moisture
     and Nitrogen Monitoring'
