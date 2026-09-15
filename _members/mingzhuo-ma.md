@@ -2,12 +2,11 @@
 name: Mingzhuo Ma
 image: images/mingzhuo.png # upload your pic to images folder.
 role: PhD # change to your role (PhD/Master/Visiting/Undergraduate Student) 
+description: PhD student, co-advised with Junyi Zhu
 affiliation: University of Michigan
 links:
   home-page: https://mingmmz.github.io/
   email: mingzm@umich.edu
-  orcid: 0009-0006-5308-0296
-  google-scholar: 7iOdb2EAAAAJ
 
 ---
 
