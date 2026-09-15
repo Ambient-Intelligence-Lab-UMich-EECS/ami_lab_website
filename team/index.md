@@ -57,6 +57,7 @@ Meet the people building Ambient Intelligence systems across sensing, machine le
 ## PhD Students
 
 <div class="team-grid">
+{% include list.html data="members" component="portrait" filter="name == 'Mingzhuo Ma'" suppress_affiliation=true style="small" %}
 {% include list.html data="members" component="portrait" filter="name == 'Linzhen Zhu'" suppress_affiliation=true style="small" %}
 {% include list.html data="members" component="portrait" filter="name == 'Hyunmin Park'" suppress_affiliation=true style="small" %}
 {% include list.html data="members" component="portrait" filter="name == 'Kailai Cui'" suppress_affiliation=true style="small" %}
