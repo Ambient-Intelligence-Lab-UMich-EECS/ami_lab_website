@@ -19,6 +19,12 @@
     {% assign data = data | sort: "date" | reverse %}
   {% endif %}
 
+{% if include.data == "citations" %}
+  {% assign featured = data | where: "priority", 1 %}
+  {% assign remaining = data | where_exp: "item", "item.priority != 1" %}
+  {% assign data = featured | concat: remaining %}
+{% endif %}
+
   {% for d in data %}
     {% assign style = d.style | default: include.style %}
 

@@ -1,34 +1,57 @@
-- id: doi:10.1145/3774906.3802765
-  publishershort: "ACM/IEEE SenSys '26"
-  image: images/moirelens.gif
-  buttons:
-    - type: website
-      text: Website
-      link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
-    - type: website
-      text: Video demo
-      link: https://www.youtube.com/watch?v=7msCfGH7uD4
-
-- title: 'MoiréSkin: Ultra-Sensitive Sensor-Actuator Visuo-Tactile Skin using Moiré Patterns'
+- title: 'MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using
+    Moiré Patterns'
   type: paper
   authors:
-    - Linzhen Zhu
-    - Liuxi Xing
-    - Runqiu Wang
-    - Ke Sun
-  date: '2026-10-01'
-  publishershort: "ACM MobiCom '26"
+  - Linzhen Zhu
+  - Runqiu Wang
+  - Yi Rong
+  - Ke Sun
+  publisher: Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems
+  date: '2026-05-01'
+  ke-sun: true
+  publishershort: ACM/IEEE SenSys '26
+  image: images/moirelens.gif
+  description: MoiréLens demonstrates that everyday cameras can be used for visualizing
+    air-flow and refractive-index dynamics by converting subtle refractive-index variations
+    into measurable Moire phase shifts.
+  tags:
+  - vision
+  - environmental sensing
+  - human computer interaction
+  id: doi:10.1145/3774906.3802765
+  buttons:
+  - type: website
+    text: Website
+    link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
+  - type: website
+    text: Video demo
+    link: https://www.youtube.com/watch?v=7msCfGH7uD4
+
+- title: 'MoiréSkin: Ultra-Sensitive Sensor-Actuator Visuo-Tactile Skin using Moiré
+    Patterns'
+  type: paper
+  authors:
+  - Linzhen Zhu
+  - Liuxi Xing
+  - Runqiu Wang
+  - Ke Sun
+  date: '2026-11-01'
+  publishershort: ACM MobiCom '26
   link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
   image: images/moireskin.gif
   description: One of the world's most sensitive visuo-tactile sensors and actuators.
   buttons:
-    - type: website
-      text: Website
-      link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
-    - type: website
-      text: Video demo
-      link: https://www.youtube.com/watch?v=LXkB8KFgHNo
-  tags: [Light, Robotic Sensing, Extended Sensing Capabilities]
+  - type: website
+    text: Website
+    link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
+  - type: website
+    text: Video demo
+    link: https://www.youtube.com/watch?v=LXkB8KFgHNo
+  tags:
+  - Light
+  - Robotic Sensing
+  - Extended Sensing Capabilities
+  priority: 1
 
 - title: 'StateScribe: Towards Accessible Change Awareness Across Real-World Revisits'
   type: paper
@@ -54,23 +77,6 @@
 
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- title: 'MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns'
-  type: unpublished
-  authors:
-  - Linzhen Zhu
-  - Runqiu Wang
-  - Yi Rong
-  - Ke Sun
-  publisher: Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems
-  date: '2026-05-01'
-  ke-sun: true
-  publishershort: "ACM SenSys '26"
-  image: images/moirelens.gif
-  description: MoiréLens demonstrates that everyday cameras can be used for visualizing air-flow and refractive-index dynamics by converting subtle refractive-index variations into measurable Moire phase shifts.
-  tags:
-    - vision
-    - environmental sensing
-    - human computer interaction
 - title: 'Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo Earbuds'
   type: unpublished
   authors:
@@ -133,22 +139,6 @@
     - wireless communication
     - multimodal
     - text
-- title: 'UWB-based Localization of Smartphones Inside a Vehicle to Prevent Distracted Driving'
-  type: unpublished
-  authors:
-  - Kailai Cui
-  - Ke Sun
-  - Kang G. Shin
-  publisher: Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems
-  date: '2026-05-01'
-  ke-sun: true
-  publishershort: "ACM SenSys '26"
-  image: images/uwbptrac.jpg
-  description: UWB-Prac is a real-time seat-level smartphone localization system that uses the single UWB anchor infrastructure already available in modern vehicles.
-  tags:
-    - radio frequency
-    - human computer interaction
-    - mobile robotics
 - id: doi:10.1145/3746059.3747714
   title: 'UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with
     Ultrasound Sensing on Consumer Wearables'
@@ -768,3 +758,24 @@
   tags:
     - human computer interaction
     - ultrasound
+- title: UWB-based Localization of Smartphones Inside a Vehicle to Prevent Distracted
+    Driving
+  type: paper
+  authors:
+  - Kailai Cui
+  - Ke Sun
+  - Kang G. Shin
+  publisher: Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems
+  date: '2026-05-01'
+  ke-sun: true
+  publishershort: ACM/IEEE SenSys '26
+  image: images/uwbptrac.jpg
+  description: UWB-Prac is a real-time seat-level smartphone localization system that
+    uses the single UWB anchor infrastructure already available in modern vehicles.
+  tags:
+  - radio frequency
+  - human computer interaction
+  - mobile robotics
+  id: doi:10.1145/3774906.3800472
+- id: doi:10.1145/3789674
+  publishershort: ACM IMWUT (UbiComp'26)
