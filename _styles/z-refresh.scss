@@ -51,3 +51,19 @@ a:focus-visible, label:focus-visible { outline: 3px solid #b08600; outline-offse
 .research-aim h3 { margin: 0 0 6px; padding: 0; font-size: 1.1rem; text-transform: none; }
 .research-aim p { margin: 0; color: var(--gray); line-height: 1.5; }
 .research-aim-description { margin: 0 0 16px; color: var(--gray); line-height: 1.5; }
+
+/* Night mode follows the page theme, including the header and research cards. */
+html[data-dark="true"] { color-scheme: dark; }
+html[data-dark="false"] { color-scheme: light; }
+html[data-dark="true"] body { background: linear-gradient(160deg, #07172a, #0b2038 55%, #102a43); }
+html[data-dark="true"] header.background { background: #0b2038; box-shadow: 0 8px 28px #00000030; }
+html[data-dark="true"] header .logo img { filter: grayscale(1) invert(1); mix-blend-mode: screen; }
+html[data-dark="true"] .carousel { background: #0b2038; }
+html[data-dark="true"] .research-topic-links { border-color: #ffffff26; }
+html[data-dark="true"] .research-topic-copy li::marker,
+html[data-dark="true"] .research-topic-links li::marker,
+html[data-dark="true"] .research-topic-nav-sublinks li::marker { color: #8ed8ff; }
+html[data-dark="true"] .research-topic-placeholder { color: #ffde66; }
+html[data-dark="true"] a:focus-visible,
+html[data-dark="true"] label:focus-visible { outline-color: #ffcb05; }
+.dark-toggle::after { color: var(--background); }
