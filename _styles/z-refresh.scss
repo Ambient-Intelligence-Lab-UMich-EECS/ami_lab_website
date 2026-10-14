@@ -9,7 +9,7 @@ header .logo { height: 68px; flex-shrink: 0; }
 header .logo img { mix-blend-mode: multiply; border-radius: 0; }
 header .title { font-weight: 700; letter-spacing: -0.025em; font-size: 1.25rem; }
 header nav { padding: 0; gap: 4px; }
-header nav > a { border: 0; background: transparent; border-radius: 8px; font-size: 12px; letter-spacing: .04em; }
+header nav > a { border: 0; background: transparent; border-radius: 8px; font-size: 14px; letter-spacing: .04em; }
 header nav > a:hover { background: #ffcb0530; }
 main > section { background: transparent !important; }
 h1, h2, h3 { letter-spacing: -.025em; }
