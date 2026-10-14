@@ -162,7 +162,7 @@ Our research aims to achieve **Super Ambient Intelligence**.
 
 {% include carousel.html height="58" unit="%" duration="15" number="1" %}
 
-<div class="demo-links"><span>Watch the demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a></div>
+<div class="demo-links"><span>Watch our full demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a><a href="https://www.youtube.com/watch?v=N0rclrcOw_4">StateScribe ↗</a></div>
 
 If you are interested in the AmI Lab's ongoing research projects, please visit the [Research page]({{ "/research/" | relative_url }}).
   </div>
