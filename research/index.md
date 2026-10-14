@@ -307,14 +307,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <div class="research-overview">
   <section class="research-lead-card">
-    <h2>Ongoing Research Projects</h2>
+    <h2>Super Ambient Intelligence</h2>
     <p class="research-lead">
-      The lab studies how mobile, wearable, robotic, and IoT platforms can be turned into practical computational sensing systems that are more perceptive, more adaptive, and more useful in everyday environments.
+      Our research aims to achieve <strong>Super Ambient Intelligence</strong>.
     </p>
 
     <div class="research-topic-nav">
       <div class="research-topic-nav-group">
-        <a class="research-topic-nav-link" href="#multimodal-projects">New Multi-modal Computational Sensing Technologies for Diverse Applications</a>
+        <a class="research-topic-nav-link" href="#multimodal-projects">01 Augment perception</a>
+        <p class="research-aim-description">New physical sensing on everyday devices.</p>
         <ul class="research-topic-nav-sublinks">
           <li><a href="#env-dynamics-project">Computational Sensing of Invisible Environmental Dynamics</a>: <a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/">MoiréLens</a> [<span class="research-pub-strong">SenSys'26</span>], <a href="{{ "/projects/" | relative_url }}?search=SoilNutri">SoilNutri</a> [<span class="research-pub-strong">UbiComp'26</span>], <a href="{{ "/projects/" | relative_url }}?search=VECTOR">VECTOR</a> [<span class="research-pub-strong">UbiComp'22</span>]</li>
           <li><a href="#health-wearables-project">Health Sensing using Wearable Consumer Electronics</a>: <a href="https://www.youtube.com/watch?v=FrSbxhM5yII">EarCardio</a> [<span class="research-pub-strong">MobiCom'26</span>], <a href="{{ "/projects/" | relative_url }}?search=EgoADL">EgoADL</a> [<span class="research-pub-strong">UbiComp'24</span>], <a href="{{ "/projects/" | relative_url }}?search=LoEar">LoEar</a> [<span class="research-pub-strong">UbiComp'22</span>]</li>
@@ -324,7 +325,8 @@ document.addEventListener("DOMContentLoaded", function () {
       </div>
 
       <div class="research-topic-nav-group">
-        <a class="research-topic-nav-link" href="#ai-native-projects">AI-Native Sensing Systems Challenges for Mobile, Wearable, Robotic, and IoT Platforms</a>
+        <a class="research-topic-nav-link" href="#ai-native-projects">02 Augment interaction</a>
+        <p class="research-aim-description">Sensor-driven physical AI</p>
         <ul class="research-topic-nav-sublinks">
           <li><a href="#ai-optimization-project">AI-Assisted Mobile System Optimization</a>: <a href="{{ "/projects/" | relative_url }}?search=KDC">KDC</a> [<span class="research-pub-strong">NSDI'26</span>], <a href="{{ "/projects/" | relative_url }}?search=RFCanvas">RFCanvas</a> [<span class="research-pub-strong">SenSys'24</span>]</li>
           <li><a href="#secure-sensing-project">AI-Native Secure and Privacy-Preserving Sensing</a>: <a href="https://www.youtube.com/watch?v=Vgy-u9HlQOo">MagicPatch</a> [<span class="research-pub-strong">MobiCom'26</span>], <a href="{{ "/projects/" | relative_url }}?search=EveGuard">EveGuard</a> [<span class="research-pub-strong">S&amp;P'25</span>], <a href="{{ "/projects/" | relative_url }}?search=Magmaw">Magmaw</a> [<span class="research-pub-strong">NDSS'25</span>]</li>
@@ -337,7 +339,8 @@ document.addEventListener("DOMContentLoaded", function () {
   </section>
 
   <section class="research-section-card" id="multimodal-projects">
-    <h2>New Multi-modal Computational Sensing Technologies for Diverse Applications</h2>
+    <h2>01 Augment perception</h2>
+    <p class="research-aim-description">New physical sensing on everyday devices.</p>
 
     <div class="research-grid">
       <article class="research-topic-card" id="env-dynamics-project">
@@ -429,7 +432,8 @@ document.addEventListener("DOMContentLoaded", function () {
   </section>
 
   <section class="research-section-card" id="ai-native-projects">
-    <h2>AI-Native Sensing Systems Challenges for Mobile, Wearable, Robotic, and IoT Platforms</h2>
+    <h2>02 Augment interaction</h2>
+    <p class="research-aim-description">Sensor-driven physical AI</p>
 
     <div class="research-grid">
       <article class="research-topic-card" id="ai-optimization-project">

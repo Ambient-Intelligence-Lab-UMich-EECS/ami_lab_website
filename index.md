@@ -149,23 +149,13 @@ carousels:
 <p class="lab-eyebrow">University of Michigan · Computer Science &amp; Engineering</p>
 
 ## Ambient Intelligence Lab
-AmI Lab is in CSE at the University of Michigan led by Prof. **[Ke Sun](https://samsonsjarkal.github.io/KeSun/)**. We build AI-native computational sensing systems for mobile, wearable, IoT, and robotic platforms. Our research centers on three questions:
+AmI Lab is in CSE at the University of Michigan led by Prof. **[Ke Sun](https://samsonsjarkal.github.io/KeSun/)**. We build AI-native computational sensing systems for mobile, wearable, IoT, and robotic platforms.
 
-{% capture col1 %}
+Our research aims to achieve **Super Ambient Intelligence**.
 
-- **How can everyday sensors sense more?**
-- **How can we make AI-powered sensing work reliably on real devices?**
-- **How can sensing make everyday life easier?**
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{% endcapture %}
-
-<div class="home-sub-grid">
-  <div class="home-compact-list">{{ col1 | markdownify }}</div>
-  <div class="home-compact-list">{{ col2 | markdownify }}</div>
+<div class="research-aims">
+  <div class="research-aim"><span class="aim-number">01</span><div><h3>Augment perception</h3><p>New physical sensing on everyday devices.</p></div></div>
+  <div class="research-aim"><span class="aim-number">02</span><div><h3>Augment interaction</h3><p>Sensor-driven physical AI</p></div></div>
 </div>
 
 ## Research in action
