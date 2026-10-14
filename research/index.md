@@ -308,9 +308,6 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="research-overview">
   <section class="research-lead-card">
     <h2>Super Ambient Intelligence</h2>
-    <p class="research-lead">
-      Our research aims to achieve <strong>Super Ambient Intelligence</strong>.
-    </p>
 
     <div class="research-topic-nav">
       <div class="research-topic-nav-group">
