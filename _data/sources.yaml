@@ -1,3 +1,57 @@
+- id: doi:10.1145/3774906.3802765
+  publishershort: "ACM/IEEE SenSys '26"
+  image: images/moirelens.gif
+  buttons:
+    - type: website
+      text: Website
+      link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
+    - type: website
+      text: Video demo
+      link: https://www.youtube.com/watch?v=7msCfGH7uD4
+
+- title: 'MoiréSkin: Ultra-Sensitive Sensor-Actuator Visuo-Tactile Skin using Moiré Patterns'
+  type: paper
+  authors:
+    - Linzhen Zhu
+    - Liuxi Xing
+    - Runqiu Wang
+    - Ke Sun
+  date: '2026-10-01'
+  publishershort: "ACM MobiCom '26"
+  link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
+  image: images/moireskin.gif
+  description: One of the world's most sensitive visuo-tactile sensors and actuators.
+  buttons:
+    - type: website
+      text: Website
+      link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
+    - type: website
+      text: Video demo
+      link: https://www.youtube.com/watch?v=LXkB8KFgHNo
+  tags: [Light, Robotic Sensing, Extended Sensing Capabilities]
+
+- title: 'StateScribe: Towards Accessible Change Awareness Across Real-World Revisits'
+  type: paper
+  authors:
+    - Ruei-Che Chang
+    - Xirui Jiang
+    - Rosiana Natalie
+    - Hao Chen
+    - Vlad Roznyatovskiy
+    - Charlie Jianzhong Zhang
+    - Kang G. G. Shin
+    - Ke Sun
+    - Anhong Guo
+  date: '2026-11-01'
+  publishershort: "ACM UIST '26"
+  link: https://github.com/HumanAILab/StateScribe
+  description: Helping people notice what has changed when they revisit real-world places.
+  buttons:
+    - type: source
+      text: Project
+      link: https://github.com/HumanAILab/StateScribe
+  tags: [HCI, Multi-modal]
+
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
 - title: 'MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns'

@@ -1,3 +1,22 @@
+- title: "Three AmI Lab demos have been accepted by **ACM MobiCom 2026**!"
+  date: 2026-09-01
+  description: We look forward to sharing our sensing systems with the MobiCom community.
+
+- title: "**MoiréSkin** has been accepted by **ACM MobiCom 2026**!"
+  date: 2026-08-01
+  description: One of the world's most sensitive visuo-tactile sensors and actuators.
+  url: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
+  links:
+    - label: Website
+      url: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
+    - label: Video demo
+      url: https://www.youtube.com/watch?v=LXkB8KFgHNo
+
+- title: "**StateScribe** has been accepted by **ACM UIST 2026**!"
+  date: 2026-08-01
+  description: Helping people notice what has changed when they revisit real-world places.
+  url: https://github.com/HumanAILab/StateScribe
+
 
 # Add the latest news updates here, such as:
 # - New team members joining
@@ -18,7 +37,7 @@
     - label: Website
       url: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
     - label: Video demo
-      url: https://www.youtube.com/watch?v=CNfV-hcBNz8
+      url: https://www.youtube.com/watch?v=7msCfGH7uD4
 
 - title: "**KDC** (Sensor data delivery through knowledge-driven communication using MLLM) is accepted by **NSDI 2026**! Congratulations to [Xingyu](https://xingyuchen.me/)!"
   date: 2025-12-10

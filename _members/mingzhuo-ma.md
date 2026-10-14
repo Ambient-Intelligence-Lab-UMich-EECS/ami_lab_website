@@ -1,7 +1,7 @@
 ---
 name: Mingzhuo Ma
 image: images/mingzhuo.png # upload your pic to images folder.
-role: PhD # change to your role (PhD/Master/Visiting/Undergraduate Student) 
+role: phd # change to your role (PhD/Master/Visiting/Undergraduate Student)
 description: PhD student, co-advised with Junyi Zhu
 affiliation: University of Michigan
 links:

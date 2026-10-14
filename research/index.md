@@ -121,6 +121,8 @@ nav:
   border-radius: 18px;
   padding: 1rem;
   box-shadow: 0 16px 34px rgba(10, 30, 55, 0.07);
+}
+
 .research-topic-title {
   grid-column: 1 / -1;
   margin-top: 0;
@@ -317,7 +319,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <li><a href="#env-dynamics-project">Computational Sensing of Invisible Environmental Dynamics</a>: <a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/">MoiréLens</a> [<span class="research-pub-strong">SenSys'26</span>], <a href="{{ "/projects/" | relative_url }}?search=SoilNutri">SoilNutri</a> [<span class="research-pub-strong">UbiComp'26</span>], <a href="{{ "/projects/" | relative_url }}?search=VECTOR">VECTOR</a> [<span class="research-pub-strong">UbiComp'22</span>]</li>
           <li><a href="#health-wearables-project">Health Sensing using Wearable Consumer Electronics</a>: <a href="https://www.youtube.com/watch?v=FrSbxhM5yII">EarCardio</a> [<span class="research-pub-strong">MobiCom'26</span>], <a href="{{ "/projects/" | relative_url }}?search=EgoADL">EgoADL</a> [<span class="research-pub-strong">UbiComp'24</span>], <a href="{{ "/projects/" | relative_url }}?search=LoEar">LoEar</a> [<span class="research-pub-strong">UbiComp'22</span>]</li>
           <li><a href="#activity-reasoning-project">Fine-grained Human Activity Sensing and Reasoning</a>: <a href="https://github.com/leeyadong/UltraPoser">UltraPoser</a> [<span class="research-pub-strong">UIST'25</span>], <a href="{{ "/projects/" | relative_url }}?search=EgoADL">EgoADL</a> [<span class="research-pub-strong">UbiComp'24</span>]</li>
-          <li><a href="#tactile-robotics-project">Tactile Sensing and Actuation for Robotics</a>: In submission</li>
+          <li><a href="#tactile-robotics-project">Tactile Sensing and Actuation for Robotics</a>: <a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/">MoiréSkin</a> [<span class="research-pub-strong">MobiCom'26</span>]</li>
         </ul>
       </div>
 
@@ -328,7 +330,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <li><a href="#secure-sensing-project">AI-Native Secure and Privacy-Preserving Sensing</a>: <a href="https://www.youtube.com/watch?v=Vgy-u9HlQOo">MagicPatch</a> [<span class="research-pub-strong">MobiCom'26</span>], <a href="{{ "/projects/" | relative_url }}?search=EveGuard">EveGuard</a> [<span class="research-pub-strong">S&amp;P'25</span>], <a href="{{ "/projects/" | relative_url }}?search=Magmaw">Magmaw</a> [<span class="research-pub-strong">NDSS'25</span>]</li>
           <li><a href="#native-ai-mobile-project">Sensing-Assisted Native AI Mobile System</a>: In submission</li>
           <li><a href="#ai-mobile-sensing-project">AI-Assisted Mobile Sensing System</a>: Ongoing</li>
-          <li><a href="#wearable-memory-project">Wearable Agentic AI Memory System</a>: Ongoing</li>
+          <li><a href="#wearable-memory-project">Wearable Agentic AI Memory System</a>: <a href="https://github.com/HumanAILab/StateScribe">StateScribe</a> [<span class="research-pub-strong">UIST'26</span>]</li>
         </ul>
       </div>
     </div>
@@ -414,12 +416,12 @@ document.addEventListener("DOMContentLoaded", function () {
           <p>This direction explores how low-cost sensing and actuation pipelines can give robots richer tactile perception and more practical interaction capabilities.</p>
         </div>
         <div class="research-topic-media">
-          <div class="research-topic-placeholder">In Submission</div>
+          <img src="{{ "images/moireskin.gif" | relative_url }}" alt="MoiréSkin visuo-tactile sensor and actuator">
         </div>
         <div class="research-topic-links">
           <h4>Selected Publications</h4>
           <ul>
-            <li>In submission works</li>
+            <li><a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/">MoiréSkin</a> [<span class="research-pub-strong">MobiCom'26</span>] — One of the world's most sensitive visuo-tactile sensors and actuators. <a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">Video demo</a></li>
           </ul>
         </div>
       </article>
@@ -514,11 +516,12 @@ document.addEventListener("DOMContentLoaded", function () {
           <p>This project studies wearable AI systems that can capture, organize, and retrieve important personal experiences to support human memory in everyday life.</p>
         </div>
         <div class="research-topic-media">
-          <div class="research-topic-placeholder">Ongoing</div>
+          <div class="research-topic-placeholder">StateScribe</div>
         </div>
         <div class="research-topic-links">
-          <h4>Related News</h4>
+          <h4>Selected Publications &amp; News</h4>
           <ul>
+            <li><a href="https://github.com/HumanAILab/StateScribe">StateScribe</a> [<span class="research-pub-strong">UIST'26</span>] — Helping people notice changes across real-world revisits.</li>
             <li><a href="https://cse.engin.umich.edu/stories/samsung-start-funds-cse-researchers-wearable-memory-augmentation-system" target="_blank">Samsung START funds CSE researchers' wearable memory augmentation system</a></li>
           </ul>
         </div>

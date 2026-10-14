@@ -2,6 +2,9 @@
 title: Home
 carousels:
   - images: 
+    - image: images/moireskin.gif
+      title: "MoiréSkin: One of the world's most sensitive visuo-tactile sensors and actuators (MobiCom'26)"
+      link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
     - image: images/moirelens.gif
       title: "MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns (SenSys'26)"
       link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
@@ -143,14 +146,16 @@ carousels:
 <div class="home-main-grid">
   <div class="home-left-column" markdown="1">
 
-## AmI (Ambient Intelligence) Lab
+<p class="lab-eyebrow">University of Michigan · Computer Science &amp; Engineering</p>
+
+## Ambient Intelligence Lab
 AmI Lab is in CSE at the University of Michigan led by Prof. **[Ke Sun](https://samsonsjarkal.github.io/KeSun/)**. We build AI-native computational sensing systems for mobile, wearable, IoT, and robotic platforms. Our research centers on three questions:
 
 {% capture col1 %}
 
-- **How can off-the-shelf sensors be repurposed to achieve extended sensing capabilities?**
-- **How can we address the systems challenges of emerging AI-native sensing systems?**
-- **How can sensing systems be designed to better support everyday life?**
+- **How can everyday sensors sense more?**
+- **How can we make AI-powered sensing work reliably on real devices?**
+- **How can sensing make everyday life easier?**
 
 {% endcapture %}
 
@@ -163,9 +168,11 @@ AmI Lab is in CSE at the University of Michigan led by Prof. **[Ke Sun](https://
   <div class="home-compact-list">{{ col2 | markdownify }}</div>
 </div>
 
-## Recent Research Highlight
+## Research in action
 
 {% include carousel.html height="58" unit="%" duration="15" number="1" %}
+
+<div class="demo-links"><span>Watch the demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a></div>
 
 If you are interested in the AmI Lab's ongoing research projects, please visit the [Research page]({{ "/research/" | relative_url }}).
   </div>

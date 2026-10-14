@@ -224,3 +224,7 @@ package:
   icon: fa-solid fa-box
   text: Package
   tooltip: Package
+
+alumni:
+  icon: fa-solid fa-user-graduate
+  description: Alumnus

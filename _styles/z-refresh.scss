@@ -1,0 +1,46 @@
+---
+---
+/* Shared Michigan palette and generous spacing echo the PI website. */
+body { background: linear-gradient(160deg, #fbfcff, #eef3f9 55%, #e4edf7); }
+header.background { background: #eef3f9; border-bottom: 3px solid #ffcb05; padding: 14px max(24px, calc((100% - 1280px)/2)); box-shadow: 0 8px 28px #00274c0d; }
+header.background::before { display: none; }
+header .home { flex-basis: auto; gap: 18px; }
+header .logo { height: 68px; flex-shrink: 0; }
+header .logo img { mix-blend-mode: multiply; border-radius: 0; }
+header .title { font-weight: 700; letter-spacing: -0.025em; font-size: 1.25rem; }
+header nav { padding: 0; gap: 4px; }
+header nav > a { border: 0; background: transparent; border-radius: 8px; font-size: 12px; letter-spacing: .04em; }
+header nav > a:hover { background: #ffcb0530; }
+main > section { background: transparent !important; }
+h1, h2, h3 { letter-spacing: -.025em; }
+p { text-align: left; }
+.home-main-grid { gap: 32px; grid-template-columns: minmax(0, 1.75fr) minmax(270px, .85fr); }
+.home-left-column { padding: 30px; border: 1px solid var(--edge); border-radius: 24px; background: var(--surface-strong); box-shadow: 0 18px 50px #00274c0b; }
+.lab-eyebrow { color: var(--gray); font-size: .75rem; letter-spacing: .09em; text-transform: uppercase; margin: 0 0 12px !important; }
+.home-left-column > h2:first-of-type { font-size: clamp(1.7rem, 3vw, 2.4rem); line-height: 1.15; border: 0; }
+.home-left-column > p { line-height: 1.7; }
+.home-sub-grid { display: block; }
+.home-compact-list ul { list-style: none; padding: 0; display: grid; gap: 10px; counter-reset: questions; }
+.home-compact-list li { position: relative; padding: 12px 14px 12px 44px; border-radius: 10px; background: var(--background); text-align: left; font-size: .95rem; }
+.home-compact-list li::before { counter-increment: questions; content: '0' counter(questions); position: absolute; left: 12px; color: var(--gray); font-size: .8rem; top: 14px; }
+.home-compact-list:empty { display: none; }
+.home-side-list .news-card { padding: 16px; border-radius: 14px; box-shadow: none; border-left: 3px solid #ffcb05; }
+.home-side-list .news-title { line-height: 1.5; }
+.news-description a { display: inline-block; margin-right: 10px; }
+.demo-links { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; text-align: left; margin: 18px 0; }
+.demo-links span { font-size: .8rem; color: var(--gray); }
+.demo-links a { padding: 7px 12px; background: #ffcb0528; border: 1px solid #ffcb0580; border-radius: 8px; font-size: .85rem; text-decoration: none; font-weight: 600; }
+.carousel { border-radius: 14px; background: #edf3fa; }
+.home-main-grid .carousel__figure-title { background: rgba(0,39,76,.88); font-size: .9rem; padding-bottom: 30px; }
+.home-main-grid .carousel__indicators { bottom: 5px; z-index: 4; }
+.home-main-grid .carousel__indicator { width: 9px; height: 9px; }
+.carousel__control { filter: drop-shadow(0 1px 3px #00274c); }
+.research-section-card, .research-lead-card { padding: 26px; box-shadow: 0 12px 30px #00274c08; }
+.research-topic-card { box-shadow: none; }
+.citation-publisher strong { color: var(--primary); }
+.team-grid { grid-template-columns: repeat(auto-fit, minmax(145px, 145px)); gap: 18px; }
+.team-grid .portrait { width: 145px; max-width: 145px; padding: 12px; }
+a:focus-visible, label:focus-visible { outline: 3px solid #b08600; outline-offset: 4px; }
+@media(max-width: 1000px) { .home-main-grid { grid-template-columns: 1fr; } header .title { font-size: 1.05rem; } }
+@media(max-width: 600px) { main > section { padding: 24px 16px; } .home-left-column { padding: 20px; } header .logo { height: 48px; } header .home { gap: 10px; } header .title { max-width: 170px; } .research-section-card, .research-lead-card { padding: 18px; } }
+@media(prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; } }
