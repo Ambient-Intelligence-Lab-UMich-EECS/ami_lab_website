@@ -5,9 +5,6 @@ carousels:
     - image: images/moireskin.gif
       title: "MoiréSkin: One of the world's most sensitive visuo-tactile sensors and actuators (MobiCom'26)"
       link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
-    - image: images/statescribe.png
-      title: "StateScribe: Here’s what changed since your last visit (UIST'26)"
-      link: https://www.youtube.com/watch?v=N0rclrcOw_4
     - image: images/moirelens.gif
       title: "MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns (SenSys'26)"
       link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
@@ -163,9 +160,11 @@ Our research aims to achieve **Super Ambient Intelligence**.
 
 ## Research in action
 
+<a class="youtube-channel-banner" href="https://www.youtube.com/@AmI-UMich"><span class="youtube-channel-icon" aria-hidden="true">{% include icon.html icon="fa-brands fa-youtube" %}</span><span><strong>Explore AmI Lab on YouTube</strong><span class="youtube-channel-caption">Research demos &amp; videos · @AmI-UMich</span></span><span class="youtube-channel-arrow" aria-hidden="true">↗</span></a>
+
 {% include carousel.html height="58" unit="%" duration="15" number="1" %}
 
-<div class="demo-links"><span>Watch our full demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a><a href="https://www.youtube.com/watch?v=N0rclrcOw_4">StateScribe ↗</a><a href="https://www.youtube.com/@AmI-UMich">Our YouTube channel ↗</a></div>
+<div class="demo-links"><span>Watch our full demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a><a href="https://www.youtube.com/watch?v=N0rclrcOw_4">StateScribe ↗</a></div>
 
 If you are interested in the AmI Lab's ongoing research projects, please visit the [Research page]({{ "/research/" | relative_url }}).
   </div>
