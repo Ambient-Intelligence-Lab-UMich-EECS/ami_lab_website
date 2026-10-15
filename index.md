@@ -154,8 +154,12 @@ AmI Lab is in CSE at the University of Michigan led by Prof. **[Ke Sun](https://
 Our research aims to achieve **Super Ambient Intelligence**.
 
 <div class="research-aims">
-  <div class="research-aim"><span class="aim-number">01</span><div><h3>Augment perception</h3><p>New physical sensing on everyday devices.</p></div></div>
-  <div class="research-aim"><span class="aim-number">02</span><div><h3>Augment interaction</h3><p>Sensor-driven human-centered physical AI</p></div></div>
+  <div class="research-aim"><span class="aim-number">01</span><div><h3>Augment perception</h3><p>New physical sensing on everyday devices.</p>
+      <div class="aim-publications"><a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/">MoiréSkin <span>[MobiCom'26]</span></a><a href="https://www.youtube.com/watch?v=FrSbxhM5yII">EarCardio <span>[MobiCom'26]</span></a><a href="https://www.youtube.com/watch?v=Vgy-u9HlQOo">MagicPatch <span>[MobiCom'26]</span></a><a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/">MoiréLens <span>[SenSys'26]</span></a><a href="https://doi.org/10.1145/3774906.3800472">UWB-Prac <span>[SenSys'26]</span></a><a href="https://doi.org/10.1145/3789674">SoilNutri <span>[UbiComp'26]</span></a></div>
+    </div></div>
+  <div class="research-aim"><span class="aim-number">02</span><div><h3>Augment interaction</h3><p>Sensor-driven human-centered physical AI</p>
+      <div class="aim-publications"><a href="https://github.com/HumanAILab/StateScribe">StateScribe <span>[UIST'26]</span></a><a href="{{ "/projects/" | relative_url }}?search=Knowledge-Driven">KDC <span>[NSDI'26]</span></a></div>
+    </div></div>
 </div>
 
 <div class="research-highlight-heading">
