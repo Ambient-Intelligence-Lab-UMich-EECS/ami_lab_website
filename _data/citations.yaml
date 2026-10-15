@@ -25,6 +25,7 @@
   priority: 1
 
 - title: 'StateScribe: Towards Accessible Change Awareness Across Real-World Revisits'
+  image: images/statescribe.png
   type: paper
   authors:
     - Ruei-Che Chang

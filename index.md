@@ -5,6 +5,9 @@ carousels:
     - image: images/moireskin.gif
       title: "MoiréSkin: One of the world's most sensitive visuo-tactile sensors and actuators (MobiCom'26)"
       link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
+    - image: images/statescribe.png
+      title: "StateScribe: Here’s what changed since your last visit (UIST'26)"
+      link: https://www.youtube.com/watch?v=N0rclrcOw_4
     - image: images/moirelens.gif
       title: "MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using Moiré Patterns (SenSys'26)"
       link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/
@@ -155,14 +158,14 @@ Our research aims to achieve **Super Ambient Intelligence**.
 
 <div class="research-aims">
   <div class="research-aim"><span class="aim-number">01</span><div><h3>Augment perception</h3><p>New physical sensing on everyday devices.</p></div></div>
-  <div class="research-aim"><span class="aim-number">02</span><div><h3>Augment interaction</h3><p>Sensor-driven physical AI</p></div></div>
+  <div class="research-aim"><span class="aim-number">02</span><div><h3>Augment interaction</h3><p>Sensor-driven human-centered physical AI</p></div></div>
 </div>
 
 ## Research in action
 
 {% include carousel.html height="58" unit="%" duration="15" number="1" %}
 
-<div class="demo-links"><span>Watch our full demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a><a href="https://www.youtube.com/watch?v=N0rclrcOw_4">StateScribe ↗</a></div>
+<div class="demo-links"><span>Watch our full demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a><a href="https://www.youtube.com/watch?v=N0rclrcOw_4">StateScribe ↗</a><a href="https://www.youtube.com/@AmI-UMich">Our YouTube channel ↗</a></div>
 
 If you are interested in the AmI Lab's ongoing research projects, please visit the [Research page]({{ "/research/" | relative_url }}).
   </div>

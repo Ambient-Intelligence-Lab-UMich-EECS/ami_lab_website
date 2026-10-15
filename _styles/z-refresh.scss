@@ -67,3 +67,13 @@ html[data-dark="true"] .research-topic-placeholder { color: #ffde66; }
 html[data-dark="true"] a:focus-visible,
 html[data-dark="true"] label:focus-visible { outline-color: #ffcb05; }
 .dark-toggle::after { color: var(--background); }
+
+/* Keep each aim and its explanation together, wrapping naturally on phones. */
+.research-aim > div { line-height: 1.6; }
+.research-aim h3, .research-aim p { display: inline; }
+.research-aim p::before { content: " — "; }
+.research-aim-line { text-align: left; margin-bottom: 16px; line-height: 1.6; }
+.research-aim-line > .research-topic-nav-link,
+.research-aim-line > h2,
+.research-aim-line > .research-aim-description { display: inline; margin: 0; }
+.research-aim-line > .research-aim-description::before { content: " — "; }
