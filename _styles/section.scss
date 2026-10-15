@@ -1,11 +1,10 @@
 ---
 ---
 
-$page: 1480px;
 $padding: 32px;
 
 section {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding: $padding clamp(16px, 3vw, 96px);
   transition: background var(--transition), color var(--transition);
 }
 

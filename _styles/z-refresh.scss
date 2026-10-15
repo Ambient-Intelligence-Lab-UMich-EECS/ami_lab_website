@@ -2,7 +2,7 @@
 ---
 /* Shared Michigan palette and generous spacing echo the PI website. */
 body { background: linear-gradient(160deg, #fbfcff, #eef3f9 55%, #e4edf7); }
-header.background { background: #eef3f9; border-bottom: 3px solid #ffcb05; padding: 14px max(24px, calc((100% - 1480px)/2)); box-shadow: 0 8px 28px #00274c0d; }
+header.background { background: #eef3f9; border-bottom: 3px solid #ffcb05; padding: 14px clamp(16px, 3vw, 96px); box-shadow: 0 8px 28px #00274c0d; }
 header.background::before { display: none; }
 header .home { flex-basis: auto; gap: 18px; }
 header .logo { height: 68px; flex-shrink: 0; }
@@ -89,3 +89,17 @@ html[data-dark="true"] label:focus-visible { outline-color: #ffcb05; }
 .aim-publications a { font-size: .85rem; line-height: 1.6; text-decoration: none; }
 .aim-publications a:hover { text-decoration: underline; }
 .aim-publications span { color: var(--gray); font-size: .92em; white-space: nowrap; }
+
+/* Fluid outer layout with safe wrapping at narrow widths. */
+main, .home-main-grid > *, .research-topic-card > * { min-width: 0; }
+.research-aim, .research-highlight-heading { min-width: 0; }
+.research-aim > div { min-width: 0; overflow-wrap: anywhere; }
+.youtube-channel-button { max-width: 100%; box-sizing: border-box; white-space: normal; }
+header .home { min-width: 0; }
+@media (max-width: 380px) {
+  header .title { font-size: .95rem; max-width: 150px; }
+  header .logo { height: 40px; }
+  header { gap: 10px; }
+  .home-left-column { padding: 16px; }
+  .research-aim { padding: 12px; gap: 10px; }
+}
