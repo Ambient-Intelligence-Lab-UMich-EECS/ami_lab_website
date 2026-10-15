@@ -7,7 +7,7 @@ body {
 header.background {
   background: #eef3f9;
   border-bottom: 3px solid #ffcb05;
-  padding: 14px max(24px, (100% - 1280px) / 2);
+  padding: 14px max(16px, (100% - 1600px) / 2);
   box-shadow: 0 8px 28px rgba(0, 39, 76, 0.0509803922);
 }
 
@@ -377,6 +377,116 @@ html[data-dark=true] label:focus-visible {
 
 .research-aim-line > .research-aim-description::before {
   content: " — ";
+}
+
+/* Highlight the channel beside the research section title. */
+.research-highlight-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0 14px;
+  border-bottom: 1px solid var(--edge);
+  padding-bottom: 12px;
+}
+
+.home-left-column .research-highlight-heading h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.youtube-channel-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 9px;
+  background: #ffcb05;
+  color: #00274c;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.youtube-channel-button .icon {
+  color: #00274c;
+  font-size: 1.2em;
+}
+
+.youtube-channel-button:hover {
+  background: #ffdb50;
+  color: #00274c;
+  box-shadow: 0 3px 12px rgba(255, 203, 5, 0.2);
+}
+
+.aim-publications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  margin-top: 10px;
+}
+
+.aim-publications a {
+  font-size: 0.85rem;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.aim-publications a:hover {
+  text-decoration: underline;
+}
+
+.aim-publications span {
+  color: var(--gray);
+  font-size: 0.92em;
+  white-space: nowrap;
+}
+
+/* Fluid outer layout with safe wrapping at narrow widths. */
+main, .home-main-grid > *, .research-topic-card > * {
+  min-width: 0;
+}
+
+.research-aim, .research-highlight-heading {
+  min-width: 0;
+}
+
+.research-aim > div {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.youtube-channel-button {
+  max-width: 100%;
+  box-sizing: border-box;
+  white-space: normal;
+}
+
+header .home {
+  min-width: 0;
+}
+
+@media (max-width: 380px) {
+  header .title {
+    font-size: 0.95rem;
+    max-width: 150px;
+  }
+  header .logo {
+    height: 40px;
+  }
+  header {
+    gap: 10px;
+  }
+  .home-left-column {
+    padding: 16px;
+  }
+  .research-aim {
+    padding: 12px;
+    gap: 10px;
+  }
 }
 
 /*# sourceMappingURL=z-refresh.css.map */

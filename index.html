@@ -603,17 +603,26 @@
 <span class="aim-number">01</span><div>
 <h3>Augment perception</h3>
 <p>New physical sensing on everyday devices.</p>
+      <div class="aim-publications">
+<a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/">MoiréSkin <span>[MobiCom'26]</span></a><a href="https://www.youtube.com/watch?v=FrSbxhM5yII">EarCardio <span>[MobiCom'26]</span></a><a href="https://www.youtube.com/watch?v=Vgy-u9HlQOo">MagicPatch <span>[MobiCom'26]</span></a><a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireLens-Page/">MoiréLens <span>[SenSys'26]</span></a><a href="https://doi.org/10.1145/3774906.3800472">UWB-Prac <span>[SenSys'26]</span></a><a href="https://doi.org/10.1145/3789674">SoilNutri <span>[UbiComp'26]</span></a>
 </div>
+    </div>
 </div>
   <div class="research-aim">
 <span class="aim-number">02</span><div>
 <h3>Augment interaction</h3>
 <p>Sensor-driven human-centered physical AI</p>
+      <div class="aim-publications">
+<a href="https://github.com/HumanAILab/StateScribe">StateScribe <span>[UIST'26]</span></a><a href="https://www.usenix.org/conference/nsdi26/presentation/chen-xingyu">KDC <span>[NSDI'26]</span></a>
 </div>
+    </div>
 </div>
 </div>
 
-    <h2 id="research-in-action">Research in action</h2>
+    <div class="research-highlight-heading">
+  <h2 id="research-in-action">Research in action</h2>
+  <a class="youtube-channel-button" href="https://www.youtube.com/@AmI-UMich"><i class="icon fa-brands fa-youtube"></i> YouTube channel <span aria-hidden="true">↗</span></a>
+</div>
 
     <div class="carousel__holder">
     <div id="carousel0" class="carousel">
@@ -628,15 +637,13 @@
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0e">
         
-          <input class="carousel__activator" type="radio" name="carousel0" id="0f">
-        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0f"></label>
+              <label class="carousel__control carousel__control--backward" for="0e"></label>
               <label class="carousel__control carousel__control--forward" for="0b"></label>
           </div>
         
@@ -673,15 +680,6 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0d"></label>
-              <label class="carousel__control carousel__control--forward" for="0f"></label>
-          </div>
-        
-          
-          
-          
-          
-          <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0e"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
@@ -694,17 +692,6 @@
                 <div class="carousel__figure-title">
                   
                     <a href="https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/">MoiréSkin: One of the world's most sensitive visuo-tactile sensors and actuators (MobiCom'26)</a>
-                  
-                </div>
-              
-            </li>
-            
-            <li class="carousel__slide">
-              <img class="carousel__slide-image" src="/ami_lab_website/images/statescribe.png" alt="StateScribe: Here’s what changed since your last visit (UIST'26)" data-image="/ami_lab_website/images/statescribe.png" loading="lazy">
-              
-                <div class="carousel__figure-title">
-                  
-                    <a href="https://www.youtube.com/watch?v=N0rclrcOw_4">StateScribe: Here’s what changed since your last visit (UIST'26)</a>
                   
                 </div>
               
@@ -767,8 +754,6 @@
               <label class="carousel__indicator" for="0d"></label>
             
               <label class="carousel__indicator" for="0e"></label>
-            
-              <label class="carousel__indicator" for="0f"></label>
             
         </div>
     </div>
@@ -926,29 +911,6 @@
   opacity: 1;
 }
 
-.carousel__activator:nth-of-type(6):checked ~ .carousel__track {
-  -webkit-transform: translateX(-500%);
-          transform: translateX(-500%);
-}
-.carousel__activator:nth-of-type(6):checked ~ .carousel__slide:nth-of-type(6) {
-  transition: opacity 0.5s, -webkit-transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
-  top: 0;
-  left: 0;
-  right: 0;
-  opacity: 1;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-.carousel__activator:nth-of-type(6):checked ~ .carousel__controls:nth-of-type(6) {
-  display: block;
-  opacity: 1;
-}
-.carousel__activator:nth-of-type(6):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(6) {
-  opacity: 1;
-}
-
 
 .carousel__control {
   height: 30px;
@@ -1043,11 +1005,6 @@
           transform: translateX(400%);
 }
 
-.carousel__track .carousel__slide:nth-of-type(6) {
-  -webkit-transform: translateX(500%);
-          transform: translateX(500%);
-}
-
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -1099,12 +1056,6 @@
 }
 
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
-  background-size: contain; 
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(6) {
   background-size: contain; 
   background-position: center;
   background-repeat: no-repeat;
@@ -1178,7 +1129,7 @@
 </script>
 
     <div class="demo-links">
-<span>Watch our full demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a><a href="https://www.youtube.com/watch?v=N0rclrcOw_4">StateScribe ↗</a><a href="https://www.youtube.com/@AmI-UMich">Our YouTube channel ↗</a>
+<span>Watch our full demos</span><a href="https://www.youtube.com/watch?v=LXkB8KFgHNo">MoiréSkin ↗</a><a href="https://www.youtube.com/watch?v=7msCfGH7uD4">MoiréLens ↗</a><a href="https://www.youtube.com/watch?v=N0rclrcOw_4">StateScribe ↗</a>
 </div>
 
     <p>If you are interested in the AmI Lab’s ongoing research projects, please visit the <a href="/ami_lab_website/research/">Research page</a>.</p>
