@@ -2,7 +2,7 @@
 ---
 /* Shared Michigan palette and generous spacing echo the PI website. */
 body { background: linear-gradient(160deg, #fbfcff, #eef3f9 55%, #e4edf7); }
-header.background { background: #eef3f9; border-bottom: 3px solid #ffcb05; padding: 14px clamp(16px, 3vw, 96px); box-shadow: 0 8px 28px #00274c0d; }
+header.background { background: #eef3f9; border-bottom: 3px solid #ffcb05; padding: 14px max(16px, calc((100% - 1600px) / 2)); box-shadow: 0 8px 28px #00274c0d; }
 header.background::before { display: none; }
 header .home { flex-basis: auto; gap: 18px; }
 header .logo { height: 68px; flex-shrink: 0; }

@@ -4,7 +4,7 @@
 $padding: 32px;
 
 section {
-  padding: $padding clamp(16px, 3vw, 96px);
+  padding: $padding max(16px, calc((100% - 1600px) / 2));
   transition: background var(--transition), color var(--transition);
 }
 
