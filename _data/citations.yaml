@@ -1,78 +1,30 @@
-- title: 'MoiréSkin: Ultra-Sensitive Sensor-Actuator Visuo-Tactile Skin using Moiré
-    Patterns'
-  type: paper
-  authors:
-  - Linzhen Zhu
-  - Liuxi Xing
-  - Runqiu Wang
-  - Ke Sun
-  date: '2026-11-01'
-  publishershort: ACM MobiCom '26
-  link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
-  image: images/moireskin.gif
-  description: One of the world's most sensitive visuo-tactile sensors and actuators.
-  buttons:
-  - type: website
-    text: Website
-    link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
-  - type: website
-    text: Video demo
-    link: https://www.youtube.com/watch?v=LXkB8KFgHNo
-  tags:
-  - Light
-  - Robotic Sensing
-  - Extended Sensing Capabilities
-  priority: 1
-
-- title: 'StateScribe: Towards Accessible Change Awareness Across Real-World Revisits'
-  image: images/statescribe.png
-  type: paper
-  authors:
-    - Ruei-Che Chang
-    - Xirui Jiang
-    - Rosiana Natalie
-    - Hao Chen
-    - Vlad Roznyatovskiy
-    - Charlie Jianzhong Zhang
-    - Kang G. G. Shin
-    - Ke Sun
-    - Anhong Guo
-  date: '2026-11-01'
-  publishershort: "ACM UIST '26"
-  link: https://github.com/HumanAILab/StateScribe
-  description: Helping people notice what has changed when they revisit real-world places.
-  buttons:
-    - type: source
-      text: Project
-      link: https://github.com/HumanAILab/StateScribe
-  tags: [HCI, Multi-modal]
-
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- title: 'MoiréLens: Bringing Schlieren Imaging into Real-World Environments Using
-    Moiré Patterns'
-  type: paper
+- id: doi:10.1145/3774906.3802765
+  title: "Moir\xE9Lens: Bringing Schlieren Imaging into Real-World Environments Using\
+    \ Moir\xE9 Patterns"
   authors:
   - Linzhen Zhu
   - Runqiu Wang
   - Yi Rong
   - Ke Sun
-  publisher: Proceedings of the 2026 ACM/IEEE International Conference on Embedded
-    Artificial Intelligence and Sensing Systems
-  date: '2026-05-10'
+  publisher: Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems
+  date: '2026-05-01'
+  link: https://doi.org/hcjjbk
+  orcid: 0000-0001-9563-1398
   ke-sun: true
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
   publishershort: ACM/IEEE SenSys '26
   image: images/moirelens.gif
-  description: MoiréLens demonstrates that everyday cameras can be used for visualizing
-    air-flow and refractive-index dynamics by converting subtle refractive-index variations
-    into measurable Moire phase shifts.
+  description: "Moir\xE9Lens demonstrates that everyday cameras can be used for visualizing\
+    \ air-flow and refractive-index dynamics by converting subtle refractive-index\
+    \ variations into measurable Moire phase shifts."
   tags:
   - vision
   - environmental sensing
   - human computer interaction
-  plugin: orcid.py
-  file: orcid.yaml
-  id: doi:10.1145/3774906.3802765
   buttons:
   - type: website
     text: Website
@@ -80,20 +32,21 @@
   - type: website
     text: Video demo
     link: https://www.youtube.com/watch?v=7msCfGH7uD4
-  link: https://doi.org/hcjjbk
-  orcid: 0000-0001-9563-1398
-
-- title: UWB-Based Localization of Smartphones inside a Vehicle to Prevent Distracted
+- id: doi:10.1145/3774906.3800472
+  title: UWB-based Localization of Smartphones Inside a Vehicle to Prevent Distracted
     Driving
-  type: paper
   authors:
   - Kailai Cui
   - Ke Sun
-  - Kang Geun Shin
-  publisher: Proceedings of the 2026 ACM/IEEE International Conference on Embedded
-    Artificial Intelligence and Sensing Systems
-  date: '2026-05-10'
+  - Kang G. Shin
+  publisher: Proceedings of the 24th ACM Conference on Embedded Networked Sensor Systems
+  date: '2026-05-01'
+  link: https://doi.org/hcjjbm
+  orcid: 0000-0001-9563-1398
   ke-sun: true
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
   publishershort: ACM/IEEE SenSys '26
   image: images/uwbptrac.jpg
   description: UWB-Prac is a real-time seat-level smartphone localization system that
@@ -102,14 +55,7 @@
   - radio frequency
   - human computer interaction
   - mobile robotics
-  plugin: orcid.py
-  file: orcid.yaml
-  id: doi:10.1145/3774906.3800472
-  link: https://doi.org/hcjjbm
-  orcid: 0000-0001-9563-1398
-
 - id: doi:10.1145/3789674
-  image: images/SoilNutri.png
   title: 'SoilNutri: A Passive Metasurface-based, Low-cost System for Soil Moisture
     and Nitrogen Monitoring'
   authors:
@@ -133,10 +79,10 @@
   link: https://doi.org/hbvtp5
   orcid: 0000-0001-9563-1398
   ke-sun: true
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  image: images/SoilNutri.png
   publishershort: ACM IMWUT (UbiComp'26)
-
 - id: doi:10.1145/3746059.3747714
   title: 'UltraPoser: Pushing the Limits of IMU-based Full-Body Pose Estimation with
     Ultrasound Sensing on Consumer Wearables'
@@ -756,6 +702,60 @@
   tags:
   - human computer interaction
   - ultrasound
+- title: "Moir\xE9Skin: Ultra-Sensitive Sensor-Actuator Visuo-Tactile Skin using Moir\xE9\
+    \ Patterns"
+  type: paper
+  authors:
+  - Linzhen Zhu
+  - Liuxi Xing
+  - Runqiu Wang
+  - Ke Sun
+  date: '2026-11-01'
+  publishershort: ACM MobiCom '26
+  link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
+  image: images/moireskin.gif
+  description: One of the world's most sensitive visuo-tactile sensors and actuators.
+  buttons:
+  - type: website
+    text: Website
+    link: https://ambient-intelligence-lab-umich-eecs.github.io/MoireSkin-Page/
+  - type: website
+    text: Video demo
+    link: https://www.youtube.com/watch?v=LXkB8KFgHNo
+  tags:
+  - Light
+  - Robotic Sensing
+  - Extended Sensing Capabilities
+  priority: 1
+  plugin: sources.py
+  file: sources.yaml
+- title: 'StateScribe: Towards Accessible Change Awareness Across Real-World Revisits'
+  image: images/statescribe.png
+  type: paper
+  authors:
+  - Ruei-Che Chang
+  - Xirui Jiang
+  - Rosiana Natalie
+  - Hao Chen
+  - Vlad Roznyatovskiy
+  - Charlie Jianzhong Zhang
+  - Kang G. G. Shin
+  - Ke Sun
+  - Anhong Guo
+  date: '2026-11-01'
+  publishershort: ACM UIST '26
+  link: https://github.com/HumanAILab/StateScribe
+  description: Helping people notice what has changed when they revisit real-world
+    places.
+  buttons:
+  - type: source
+    text: Project
+    link: https://github.com/HumanAILab/StateScribe
+  tags:
+  - HCI
+  - Multi-modal
+  plugin: sources.py
+  file: sources.yaml
 - title: Unlocking Practical Cardiac Monitoring Capabilities on True Wireless Stereo
     Earbuds
   type: unpublished
