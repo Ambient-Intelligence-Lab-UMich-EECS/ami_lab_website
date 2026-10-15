@@ -158,9 +158,10 @@ Our research aims to achieve **Super Ambient Intelligence**.
   <div class="research-aim"><span class="aim-number">02</span><div><h3>Augment interaction</h3><p>Sensor-driven human-centered physical AI</p></div></div>
 </div>
 
-## Research in action
-
-<a class="youtube-channel-banner" href="https://www.youtube.com/@AmI-UMich"><span class="youtube-channel-icon" aria-hidden="true">{% include icon.html icon="fa-brands fa-youtube" %}</span><span><strong>Explore AmI Lab on YouTube</strong><span class="youtube-channel-caption">Research demos &amp; videos · @AmI-UMich</span></span><span class="youtube-channel-arrow" aria-hidden="true">↗</span></a>
+<div class="research-highlight-heading">
+  <h2 id="research-in-action">Research in action</h2>
+  <a class="youtube-channel-button" href="https://www.youtube.com/@AmI-UMich">{% include icon.html icon="fa-brands fa-youtube" %} YouTube channel <span aria-hidden="true">↗</span></a>
+</div>
 
 {% include carousel.html height="58" unit="%" duration="15" number="1" %}
 

@@ -78,9 +78,9 @@ html[data-dark="true"] label:focus-visible { outline-color: #ffcb05; }
 .research-aim-line > .research-aim-description { display: inline; margin: 0; }
 .research-aim-line > .research-aim-description::before { content: " — "; }
 
-.youtube-channel-banner { display: flex; align-items: center; gap: 14px; margin: 16px 0 20px; padding: 18px 20px; border: 1px solid #ffcb05; border-radius: 12px; background: #ffcb05; color: #00274c; text-decoration: none; text-align: left; }
-.youtube-channel-banner:hover { background: #ffdb50; color: #00274c; }
-.youtube-channel-banner strong { display: block; font-size: 1.05rem; }
-.youtube-channel-caption { display: block; margin-top: 3px; font-size: .85rem; }
-.youtube-channel-icon .icon { font-size: 1.8rem; color: #00274c; }
-.youtube-channel-arrow { margin-left: auto; font-size: 1.5rem; }
+/* Highlight the channel beside the research section title. */
+.research-highlight-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin: 24px 0 14px; border-bottom: 1px solid var(--edge); padding-bottom: 12px; }
+.home-left-column .research-highlight-heading h2 { margin: 0; padding: 0; border: 0; }
+.youtube-channel-button { display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px; border-radius: 9px; background: #ffcb05; color: #00274c; font-size: .85rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.youtube-channel-button .icon { color: #00274c; font-size: 1.2em; }
+.youtube-channel-button:hover { background: #ffdb50; color: #00274c; box-shadow: 0 3px 12px #ffcb0533; }
