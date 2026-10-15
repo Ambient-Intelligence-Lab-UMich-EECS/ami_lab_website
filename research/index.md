@@ -323,7 +323,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <div class="research-topic-nav-group">
         <div class="research-aim-line"><a class="research-topic-nav-link" href="#ai-native-projects">02 Augment interaction</a><p class="research-aim-description">Sensor-driven human-centered physical AI</p></div>
         <ul class="research-topic-nav-sublinks">
-          <li><a href="#ai-optimization-project">AI-Assisted Mobile System Optimization</a>: <a href="{{ "/projects/" | relative_url }}?search=KDC">KDC</a> [<span class="research-pub-strong">NSDI'26</span>], <a href="{{ "/projects/" | relative_url }}?search=RFCanvas">RFCanvas</a> [<span class="research-pub-strong">SenSys'24</span>]</li>
+          <li><a href="#ai-optimization-project">AI-Assisted Mobile System Optimization</a>: <a href="https://www.usenix.org/conference/nsdi26/presentation/chen-xingyu">KDC</a> [<span class="research-pub-strong">NSDI'26</span>], <a href="{{ "/projects/" | relative_url }}?search=RFCanvas">RFCanvas</a> [<span class="research-pub-strong">SenSys'24</span>]</li>
           <li><a href="#secure-sensing-project">AI-Native Secure and Privacy-Preserving Sensing</a>: <a href="https://www.youtube.com/watch?v=Vgy-u9HlQOo">MagicPatch</a> [<span class="research-pub-strong">MobiCom'26</span>], <a href="{{ "/projects/" | relative_url }}?search=EveGuard">EveGuard</a> [<span class="research-pub-strong">S&amp;P'25</span>], <a href="{{ "/projects/" | relative_url }}?search=Magmaw">Magmaw</a> [<span class="research-pub-strong">NDSS'25</span>]</li>
           <li><a href="#native-ai-mobile-project">Sensing-Assisted Native AI Mobile System</a>: In submission</li>
           <li><a href="#ai-mobile-sensing-project">AI-Assisted Mobile Sensing System</a>: Ongoing</li>
@@ -444,7 +444,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="research-topic-links">
           <h4>Selected Publications</h4>
           <ul>
-            <li><a href="{{ "/projects/" | relative_url }}?search=KDC">KDC</a> [<span class="research-pub-strong">NSDI'26</span>] <span class="research-paper-note">knowledge-driven communication of multimodal data using MLLM</span></li>
+            <li><a href="https://www.usenix.org/conference/nsdi26/presentation/chen-xingyu">KDC</a> [<span class="research-pub-strong">NSDI'26</span>] <span class="research-paper-note">knowledge-driven communication of multimodal data using MLLM</span></li>
             <li><a href="{{ "/projects/" | relative_url }}?search=RFCanvas">RFCanvas</a> [<span class="research-pub-strong">SenSys'24</span>] <span class="research-paper-note">modeling RF channels using visual priors</span></li>
           </ul>
         </div>
